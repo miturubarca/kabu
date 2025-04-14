@@ -1,0 +1,3823 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式投資初心者ドリル：解答一覧切替 完全対応版</title>
+  
+<style>
+.hidden { display: none; }
+.answer-toggle, .answer-back {
+  margin-top: 12px;
+  padding: 8px 14px;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.answer-toggle:hover, .answer-back:hover {
+  background-color: #374151;
+}
+</style>
+
+  
+<style>
+.hidden { display: none; }
+.answer-toggle, .answer-back {
+  margin-top: 12px;
+  padding: 8px 14px;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.answer-toggle:hover, .answer-back:hover {
+  background-color: #374151;
+}
+</style>
+
+  
+<style>
+.hidden { display: none; }
+.answer-toggle, .answer-back, .header-answer-toggle {
+  margin-top: 12px;
+  padding: 8px 14px;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.answer-toggle:hover, .answer-back:hover, .header-answer-toggle:hover {
+  background-color: #374151;
+}
+</style>
+
+  <style>
+    .tab-button {
+        margin: 6px;
+        padding: 10px 20px;
+        background-color: #4b5563;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .tab-button:hover {
+        background-color: #374151;
+    }
+  </style>
+</head>
+<body>
+  <div class="navigation" style="text-align:center; margin-bottom:20px;">
+    <button class="tab-button" data-target="section1">セクション1</button> <button class="tab-button" data-target="section2">セクション2</button> <button class="tab-button" data-target="section3">セクション3</button> <button class="tab-button" data-target="section4">セクション4</button> <button class="tab-button" data-target="section5">セクション5</button>
+  </div>
+  
+<style>
+.section1 .option {
+  background-color: #cc6600;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+.section1 .option-label {
+  background-color: #ffffff;
+  color: #cc6600;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-weight: bold;
+}
+</style>
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff9f0; /* 薄いオレンジ色 */
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #ff8c00;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .toggle-button {
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .toggle-button:hover {
+            background-color: #e67e00;
+        }
+        .question-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .option {
+            background-color: #993d00;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .option-label {
+            background-color: white;
+            color: #993d00;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        .correct-answer {
+            background-color: #e8f7e9;
+            border: 2px solid #4caf50;
+        }
+        .correct-label {
+            background-color: #4caf50;
+            color: white;
+        }
+        .explanation {
+            background-color: #fff6dd;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .visual-tip {
+            background-color: #e6f2ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+        .answers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .answer-cell {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .visual-container {
+            background-color: white;
+            border: 2px solid #90caf9;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .hidden {
+            display: none;
+        }
+        
+        /* SVG スタイル */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+<div class="section1 tab-content" id="section1">
+<div class="container" style="background-color: #fff9f0;">
+<div class="header">
+<h1>セクション1：株式の基本概念</h1>
+<button class="toggle-button" id="toggleButton">解答を見る</button>
+</div>
+<!-- 問題セクション -->
+<div id="questionsSection">
+<!-- 問題1 -->
+<div class="question-card">
+<h3 class="question-title">Q.01 「株式」って何のこと？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の一部の所有権
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社からのお金の借り入れ
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の商品
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_0">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_0"><button class="answer-back hidden" id="backButton_1_0">問題に戻る</button>
+<h3 class="question-title">Q.01 「株式」って何のこと？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        会社の一部の所有権
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社からのお金の借り入れ
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の商品
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株を買うということは、その会社の「オーナーの一部」になるってことだよ！会社の成長とともに株の価値も上がる可能性があるんだ。例えば、1000株発行している会社の10株を持っていれば、あなたはその会社の1％のオーナーということになるんだ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「株主＝小さなオーナー」という円グラフを使って、会社の一部を所有していることを視覚的に表現。会社の円グラフの中に、「あなたの持分」が小さく区切られているイメージ。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 300 180">
+<circle cx="150" cy="90" fill="#e5e7eb" r="70"></circle>
+<path d="M 150 90 L 150 20 A 70 70 0 0 1 200 35 Z" fill="#3b82f6"></path>
+<text fill="#fff" font-size="12" font-weight="bold" x="170" y="40">あなた(株主)</text>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="150" y="95">会社</text>
+<text font-size="12" text-anchor="middle" x="150" y="115">資産・事業</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">株主は会社の一部のオーナーです。会社の成長とともに株の価値も上がる可能性があります。</p>
+</div>
+</div>
+</div>
+<!-- 問題2 -->
+<div class="question-card">
+<h3 class="question-title">Q.02 「配当金」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を売ったときに得られるお金
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社が株主に分配する利益の一部
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株を買うときに支払う手数料
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_1">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_1"><button class="answer-back hidden" id="backButton_1_1">問題に戻る</button>
+<h3 class="question-title">Q.02 「配当金」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を売ったときに得られるお金
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        会社が株主に分配する利益の一部
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株を買うときに支払う手数料
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>配当金は、会社が儲かったときに「ハイ、あなたにも分け前をあげますよ」って株主に渡すボーナスみたいなものだよ！持っている株の数に応じてもらえるんだ。例えば、1株あたり50円の配当なら、100株持っていれば5,000円がもらえるよ。配当金は株主としての「おいしいところ」の一つなんだ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「会社の利益の流れ」を示す図。会社の利益から、一部が「再投資」に、一部が「配当金」として株主に流れる様子を矢印で表現。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 200">
+<rect fill="#4f46e5" height="50" rx="5" width="120" x="150" y="20"></rect>
+<text fill="white" font-size="14" font-weight="bold" text-anchor="middle" x="210" y="50">会社の利益</text>
+<path d="M 210 70 L 210 100" fill="none" stroke="#000" stroke-width="2"></path>
+<path d="M 210 100 L 150 100" fill="none" stroke="#000" stroke-width="2"></path>
+<path d="M 210 100 L 270 100" fill="none" stroke="#000" stroke-width="2"></path>
+<path d="M 150 100 L 150 120" fill="none" stroke="#000" stroke-width="2"></path>
+<path d="M 270 100 L 270 120" fill="none" stroke="#000" stroke-width="2"></path>
+<rect fill="#22c55e" height="40" rx="5" width="120" x="90" y="120"></rect>
+<text fill="white" font-size="14" font-weight="bold" text-anchor="middle" x="150" y="145">再投資</text>
+<rect fill="#ea580c" height="40" rx="5" width="120" x="210" y="120"></rect>
+<text fill="white" font-size="14" font-weight="bold" text-anchor="middle" x="270" y="145">配当金</text>
+<text fill="white" font-size="12" text-anchor="middle" x="270" y="160">（株主へ分配）</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">会社が得た利益の一部は事業拡大のための再投資に、一部は株主への配当金として分配されます。</p>
+</div>
+</div>
+</div>
+<!-- 問題3 -->
+<div class="question-card">
+<h3 class="question-title">Q.03 「株価」はどうやって決まるの？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の社長が決める
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        証券取引所が決める
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        買いたい人と売りたい人の需要と供給で決まる
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_2">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_2"><button class="answer-back hidden" id="backButton_1_2">問題に戻る</button>
+<h3 class="question-title">Q.03 「株価」はどうやって決まるの？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の社長が決める
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        証券取引所が決める
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        買いたい人と売りたい人の需要と供給で決まる
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株価は、「買いたい！」という人と「売りたい！」という人のせめぎ合いで決まるんだ。人気の株は買いたい人が多いから価格が上がりやすいよ！逆に、悪いニュースが出ると売りたい人が増えて株価が下がることもある。これを「需要と供給の法則」というんだ。</p>
+</div>
+</div>
+<!-- 問題4 -->
+<div class="question-card">
+<h3 class="question-title">Q.04 「証券口座」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を保管しておく銀行の貯金箱みたいなもの
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        証券会社に開設する株取引専用の口座
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株の配当金を受け取るための口座
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_3">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_3"><button class="answer-back hidden" id="backButton_1_3">問題に戻る</button>
+<h3 class="question-title">Q.04 「証券口座」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を保管しておく銀行の貯金箱みたいなもの
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        証券会社に開設する株取引専用の口座
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株の配当金を受け取るための口座
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>証券口座は株を売り買いするために必要な特別な口座だよ！銀行口座とは別に、証券会社で開設する必要があるんだ。これがないと株の取引はできないよ！今はネット証券会社が人気で、スマホからでも簡単に株の取引ができるようになっているんだ。</p>
+</div>
+</div>
+<!-- 問題5 -->
+<div class="question-card">
+<h3 class="question-title">Q.05 「IPO」って何の略？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        International Profit Organization（国際利益機構）
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        Initial Public Offering（新規株式公開）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        Investment Portfolio Option（投資ポートフォリオオプション）
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_4">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_4"><button class="answer-back hidden" id="backButton_1_4">問題に戻る</button>
+<h3 class="question-title">Q.05 「IPO」って何の略？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        International Profit Organization（国際利益機構）
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        Initial Public Offering（新規株式公開）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        Investment Portfolio Option（投資ポートフォリオオプション）
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>IPOは、会社が初めて自分の株を一般の人に売り出すことだよ！いわば「会社のデビュー」みたいなもの。それまでは非公開会社だったけど、成長のために多くの人から資金を集めるためにIPOするんだ。このタイミングで株を買えることもあるけど、人気の会社は抽選になることも多いよ！</p>
+</div>
+</div>
+<!-- 問題6 -->
+<div class="question-card">
+<h3 class="question-title">Q.06 「株主総会」って何をするところ？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株の売買をする場所
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の重要な決定を株主が投票する会議
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金を直接受け取る場所
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_5">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_5"><button class="answer-back hidden" id="backButton_1_5">問題に戻る</button>
+<h3 class="question-title">Q.06 「株主総会」って何をするところ？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株の売買をする場所
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        会社の重要な決定を株主が投票する会議
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金を直接受け取る場所
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株主総会は、会社の大事なことを決める「株主の集まり」だよ。年に1回開かれることが多いかな。新しい役員を選んだり、合併や分割の承認をしたり、株主として会社の方針に意見を言ったりできるんだ。株を持っていれば参加する権利があるんだよ！最近はオンラインでの参加もできる会社が増えてきているよ。</p>
+</div>
+</div>
+<!-- 問題7 -->
+<div class="question-card">
+<h3 class="question-title">Q.07 「時価総額」はどうやって計算する？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価 × 発行済株式数
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の年間売上高
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の利益 × 株主数
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_6">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_6"><button class="answer-back hidden" id="backButton_1_6">問題に戻る</button>
+<h3 class="question-title">Q.07 「時価総額」はどうやって計算する？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        株価 × 発行済株式数
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の年間売上高
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の利益 × 株主数
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>時価総額は「会社の価値」を表す指標で、「今の株価」×「全部の株の数」で計算するんだ。例えば、株価が1,000円で100万株発行している会社なら、時価総額は10億円ということになるよ。会社の大きさを比べるときによく使われるんだ。日本では時価総額が大きい会社ほど「大型株」と呼ばれるよ。</p>
+</div>
+</div>
+<!-- 問題8 -->
+<div class="question-card">
+<h3 class="question-title">Q.08 「株式分割」が行われると株数と株価はどうなる？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株数が増えて、株価は変わらない
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株数が増えて、株価は下がる
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株数が減って、株価は上がる
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_7">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_7"><button class="answer-back hidden" id="backButton_1_7">問題に戻る</button>
+<h3 class="question-title">Q.08 「株式分割」が行われると株数と株価はどうなる？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株数が増えて、株価は変わらない
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株数が増えて、株価は下がる
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株数が減って、株価は上がる
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株式分割とは、1株を複数の株に分けることだよ。例えば1:2の分割なら、1株が2株になるんだ。でも会社の価値は変わらないから、株価は半分になるよ。だから持ち株の価値は変わらないんだ。株価が高すぎると買いにくいから、手頃な価格にするために行われることが多いんだよ。</p>
+</div>
+</div>
+<!-- 問題9 -->
+<div class="question-card">
+<h3 class="question-title">Q.09 「単元株」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を保有するための最低日数
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株を買うときの最低単位
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当を受け取るための最低株数
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_8">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_8"><button class="answer-back hidden" id="backButton_1_8">問題に戻る</button>
+<h3 class="question-title">Q.09 「単元株」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株を保有するための最低日数
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株を買うときの最低単位
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当を受け取るための最低株数
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>単元株は、株を買うときの「最小セット」のことだよ。多くの日本企業では100株が1単元になっているけど、会社によって違うこともあるよ。例えば、単元が100株の会社なら、最低でも100株単位で買わないといけないんだ。100株未満の株を「単元未満株」といって、特別なサービスで買えることもあるよ。</p>
+</div>
+</div>
+<!-- 問題10 -->
+<div class="question-card">
+<h3 class="question-title">Q.10 「株主優待」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株をたくさん持っている人だけが参加できる特別なパーティー
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株主に対して会社が提供する商品やサービスの特典
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金とは別に株主に支払われる現金
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_1_9">解答を見る</button></div><div class="question-card hidden" id="answerCard_1_9"><button class="answer-back hidden" id="backButton_1_9">問題に戻る</button>
+<h3 class="question-title">Q.10 「株主優待」って何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株をたくさん持っている人だけが参加できる特別なパーティー
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株主に対して会社が提供する商品やサービスの特典
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金とは別に株主に支払われる現金
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株主優待は、その会社の商品が無料でもらえたり割引があったりする特別サービスだよ！例えば、飲食店の株を持っていると食事券がもらえたり、航空会社なら航空券の割引があったりするんだ。お得に使える楽しみの一つだね！日本特有の制度で、優待目当てに株を買う人もいるくらい人気なんだよ。</p>
+</div>
+</div>
+</div>
+<!-- 解答セクション -->
+<button class="header-answer-toggle">解答一覧を表示</button><div class="hidden" id="answersSection" style="display:none;">
+<div class="question-card">
+<h3 class="question-title">解答一覧</h3>
+<div class="answers-grid">
+<div class="answer-cell">
+<span class="font-semibold">Q.01:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.02:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.03:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.04:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.05:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.06:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.07:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.08:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.09:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.10:</span> B
+                    </div>
+</div>
+</div>
+<!-- 解答1 -->
+<!-- 解答2 -->
+<!-- 解答3 -->
+<!-- 解答4 -->
+<!-- 解答5 -->
+<!-- 解答6 -->
+<!-- 解答7 -->
+<!-- 解答8 -->
+<!-- 解答9 -->
+<!-- 解答10 -->
+</div>
+<div class="footer">
+<button class="toggle-button" id="toggleAnswersButton">問題に戻る</button>
+</div>
+</div>
+</div>
+
+<style>
+.section2 .option {
+  background-color: #1e40af;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+.section2 .option-label {
+  background-color: #ffffff;
+  color: #1e40af;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-weight: bold;
+}
+</style>
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f0f9ff; /* 薄い青色 */
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #3b82f6;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .toggle-button {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .toggle-button:hover {
+            background-color: #2563eb;
+        }
+        .question-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .option {
+            background-color: #1e40af;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .option-label {
+            background-color: white;
+            color: #1e40af;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        .correct-answer {
+            background-color: #e8f7e9;
+            border: 2px solid #4caf50;
+            color: #333;
+        }
+        .correct-label {
+            background-color: #4caf50;
+            color: white;
+        }
+        .explanation {
+            background-color: #e6f7ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .visual-tip {
+            background-color: #f0f4ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+        .answers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .answer-cell {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .visual-container {
+            background-color: white;
+            border: 2px solid #90caf9;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .hidden {
+            display: none;
+        }
+        
+        /* SVG スタイル */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+<div class="section2 tab-content" id="section2" style="display:none">
+<div class="container" style="background-color: #f0f9ff;">
+<div class="header">
+<h1>セクション2：株の基本ルール（基本編・注文編）</h1>
+<button class="toggle-button" id="toggleButton">解答を見る</button>
+</div>
+<!-- 問題セクション -->
+<div id="questionsSection">
+<!-- 問題1 -->
+<div class="question-card">
+<h3 class="question-title">Q.01 株の取引ができる時間（日本の場合）は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        24時間いつでも
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        朝9:00〜夕方15:00
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        朝9:00〜夕方15:30
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_0">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_0"><button class="answer-back hidden" id="backButton_2_0">問題に戻る</button>
+<h3 class="question-title">Q.01 株の取引ができる時間（日本の場合）は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        24時間いつでも
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        朝9:00〜夕方15:00
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        朝9:00〜夕方15:30
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>日本の証券取引所の取引時間は朝9時から夕方3時30分までだよ！ランチタイム（お昼休み）はなくなって、ずっと取引できるようになったんだ。でも夜中や早朝には取引できないから注意してね！アメリカやヨーロッパの株を買う場合は、それぞれの国の市場時間に合わせた取引になるよ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「日本の株式市場の取引時間帯」を時計のイラストで表現し、9:00〜15:30の時間帯をハイライト。取引可能時間と不可能時間をわかりやすく色分けする。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 300px; width: 100%;" viewbox="0 0 300 300">
+<!-- 時計の枠 -->
+<circle cx="150" cy="150" fill="white" r="120" stroke="#333" stroke-width="3"></circle>
+<!-- 時計の中心 -->
+<circle cx="150" cy="150" fill="#333" r="5"></circle>
+<!-- 時間マーク -->
+<line stroke="#333" stroke-width="3" x1="150" x2="150" y1="40" y2="60"></line>
+<line stroke="#333" stroke-width="3" x1="260" x2="240" y1="150" y2="150"></line>
+<line stroke="#333" stroke-width="3" x1="150" x2="150" y1="260" y2="240"></line>
+<line stroke="#333" stroke-width="3" x1="40" x2="60" y1="150" y2="150"></line>
+<!-- 時間の数字 -->
+<text font-size="16" font-weight="bold" text-anchor="middle" x="150" y="35">12</text>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="270" y="155">3</text>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="150" y="275">6</text>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="30" y="155">9</text>
+<!-- 取引時間を表す円弧 -->
+<path d="M 150 150 L 97 76 A 90 90 0 0 1 224 200 Z" fill="#90caf9" fill-opacity="0.7"></path>
+<!-- 取引開始と終了の針 -->
+<line stroke="#1e40af" stroke-width="3" x1="150" x2="97" y1="150" y2="76"></line>
+<line stroke="#1e40af" stroke-width="3" x1="150" x2="224" y1="150" y2="200"></line>
+<!-- 説明テキスト -->
+<text fill="#1e40af" font-size="12" font-weight="bold" x="80" y="70">9:00</text>
+<text fill="#1e40af" font-size="12" font-weight="bold" x="230" y="210">15:30</text>
+<text fill="#1e40af" font-size="14" font-weight="bold" text-anchor="middle" x="150" y="130">取引時間</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">日本の証券取引所では、朝9:00から夕方15:30までが取引時間です。土日祝日は休場です。</p>
+</div>
+</div>
+</div>
+<!-- 問題2 -->
+<div class="question-card">
+<h3 class="question-title">Q.02 「指値注文」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        今の株価ですぐに買う注文方法
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        自分で決めた価格で買いたいときの注文方法
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株を売るときだけ使える注文方法
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_1">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_1"><button class="answer-back hidden" id="backButton_2_1">問題に戻る</button>
+<h3 class="question-title">Q.02 「指値注文」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        今の株価ですぐに買う注文方法
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        自分で決めた価格で買いたいときの注文方法
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株を売るときだけ使える注文方法
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>指値注文（さしねちゅうもん）は、「この価格だったら買いたい（売りたい）！」と自分で値段を指定する注文方法だよ。例えば、今1,200円の株を1,100円になったら買いたいときに使うんだ。ただし、株価が指定した価格まで行かないと取引は成立しないよ。これは買うときも売るときも使える便利な注文方法だね！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「指値注文の仕組み」を示す図。横軸が時間、縦軸が株価のグラフで、「現在の株価」と「指値の価格」を示し、株価が指値に到達した時点で注文が成立することを矢印で表現。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 座標軸 -->
+<line stroke="#333" stroke-width="2" x1="50" x2="350" y1="200" y2="200"></line>
+<line stroke="#333" stroke-width="2" x1="50" x2="50" y1="50" y2="200"></line>
+<!-- 軸ラベル -->
+<text font-size="14" text-anchor="middle" x="200" y="230">時間</text>
+<text font-size="14" text-anchor="middle" transform="rotate(-90, 20, 125)" x="20" y="125">株価</text>
+<!-- 株価チャート -->
+<polyline fill="none" points="50,150 100,140 150,160 200,150 250,120 300,100 350,80" stroke="#3b82f6" stroke-width="2"></polyline>
+<!-- 指値ライン -->
+<line stroke="#e11d48" stroke-dasharray="5,5" stroke-width="2" x1="50" x2="350" y1="130" y2="130"></line>
+<text fill="#e11d48" font-size="12" font-weight="bold" x="60" y="125">指値: 1,100円</text>
+<!-- 注文成立ポイント -->
+<circle cx="250" cy="120" fill="#4ade80" r="8"></circle>
+<text fill="#166534" font-size="12" font-weight="bold" text-anchor="middle" x="250" y="105">注文成立!</text>
+<!-- 説明テキスト -->
+<text fill="#1e40af" font-size="12" font-weight="bold" x="100" y="70">現在の株価: 1,200円</text>
+<path d="M 100 75 L 100 140" stroke="#1e40af" stroke-dasharray="3,3" stroke-width="1"></path>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">指値注文では自分が指定した価格に株価が到達した時点で、注文が成立します。</p>
+</div>
+</div>
+</div>
+<!-- 問題3 -->
+<div class="question-card">
+<h3 class="question-title">Q.03 「成行注文」の特徴は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        価格を指定して注文する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        注文が成立するとは限らない
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        価格より「すぐに取引したい」優先の注文方法
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_2">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_2"><button class="answer-back hidden" id="backButton_2_2">問題に戻る</button>
+<h3 class="question-title">Q.03 「成行注文」の特徴は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        価格を指定して注文する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        注文が成立するとは限らない
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        価格より「すぐに取引したい」優先の注文方法
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>成行注文（なりゆきちゅうもん）は、「今すぐ買いたい（売りたい）！価格はあまり気にしない！」というときの注文方法だよ。その時点での市場価格で即座に取引が成立するんだ。ただし、株価が急激に変動している場合は、予想外の価格で約定することもあるから注意が必要！でも、確実に株を手に入れたいときには便利な注文方法だね。</p>
+</div>
+</div>
+<!-- 問題4 -->
+<div class="question-card">
+<h3 class="question-title">Q.04 株の最低購入単位「単元株」として最も一般的なのは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        10株
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        100株
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        1000株
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_3">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_3"><button class="answer-back hidden" id="backButton_2_3">問題に戻る</button>
+<h3 class="question-title">Q.04 株の最低購入単位「単元株」として最も一般的なのは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        10株
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        100株
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        1000株
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>日本の多くの会社では、最低100株単位で株を購入する必要があるんだ。これを「単元株制度」といって、取引をスムーズにするために設けられているルールだよ。ただし、株価が高い会社では10株単位に設定されていることもあるよ。単元株に満たない株数を「単元未満株」といって、特別なサービスを使えば1株から購入できることもあるけど、議決権がなかったり売買に制限があったりすることがあるから要注意だね！</p>
+</div>
+</div>
+<!-- 問題5 -->
+<div class="question-card">
+<h3 class="question-title">Q.05 「信用取引」と「現物取引」の大きな違いは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        信用取引は証券会社からお金を借りて取引できる
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        信用取引は株の配当金がもらえない
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        信用取引は外国株しか購入できない
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_4">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_4"><button class="answer-back hidden" id="backButton_2_4">問題に戻る</button>
+<h3 class="question-title">Q.05 「信用取引」と「現物取引」の大きな違いは？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        信用取引は証券会社からお金を借りて取引できる
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        信用取引は株の配当金がもらえない
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        信用取引は外国株しか購入できない
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>信用取引とは、証券会社からお金や株式を借りて行う取引だよ！自分の資金以上の取引ができるんだ。例えば、30万円しか持っていなくても、100万円分の株を買えたりするんだよ。でも、借りたお金には金利がかかるし、担保（保証金）も必要。株価が下がると追加の保証金を求められることも。利益も大きくなる可能性があるけど、逆に損失も大きくなる可能性があるから、初心者には少し難しい取引方法かもしれないね。</p>
+</div>
+</div>
+<!-- 問題6 -->
+<div class="question-card">
+<h3 class="question-title">Q.06 株式分割が行われると、株主にとってどうなる？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        資産価値が増える
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        資産価値は変わらないが、株数が増える
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        資産価値が減る
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_5">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_5"><button class="answer-back hidden" id="backButton_2_5">問題に戻る</button>
+<h3 class="question-title">Q.06 株式分割が行われると、株主にとってどうなる？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        資産価値が増える
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        資産価値は変わらないが、株数が増える
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        資産価値が減る
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株式分割は、1株を複数の株に分けることだよ！例えば1:2の分割なら、持っている株が2倍になるんだ。でも株価は半分になるから、資産価値（株価×株数）は変わらないんだ。じゃあなぜやるの？それは株価が高すぎると投資家が買いにくいから、株価を下げて買いやすくするためなんだ。分割後は流動性が上がり、より多くの人が投資しやすくなるよ！</p>
+</div>
+</div>
+<!-- 問題7 -->
+<div class="question-card">
+<h3 class="question-title">Q.07 「株価指数」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        個別の会社の株価の高さを表す指標
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        市場全体や特定の業種の株価動向を示す指標
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        一日の取引量を表す指標
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_6">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_6"><button class="answer-back hidden" id="backButton_2_6">問題に戻る</button>
+<h3 class="question-title">Q.07 「株価指数」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        個別の会社の株価の高さを表す指標
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        市場全体や特定の業種の株価動向を示す指標
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        一日の取引量を表す指標
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株価指数は、「株式市場全体の動き」や「特定の業種の動き」を表す指標だよ！日本の代表的な株価指数には、日経平均株価（日経225）やTOPIXなどがあるんだ。個別の株を見るのではなく、市場全体のトレンドを知るのに役立つよ！例えば、「日経平均が上がっている」と聞けば、日本の株式市場全体が好調だと分かるんだ。投資判断の参考にもなる大切な指標だね！</p>
+</div>
+</div>
+<!-- 問題8 -->
+<div class="question-card">
+<h3 class="question-title">Q.08 株を買った後、最初から下がり続けた場合の対処法として間違っているのは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        損切りを検討する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        今後の株価動向を踏まえて保有継続を検討する
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        必ず反発するまで待ち続ける
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_7">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_7"><button class="answer-back hidden" id="backButton_2_7">問題に戻る</button>
+<h3 class="question-title">Q.08 株を買った後、最初から下がり続けた場合の対処法として間違っているのは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        損切りを検討する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        今後の株価動向を踏まえて保有継続を検討する
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        必ず反発するまで待ち続ける
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>「必ず反発するまで待ち続ける」というのは間違った考え方だよ！株価は必ず戻るとは限らないんだ。会社の業績や将来性に問題があれば、株価が回復せずにさらに下がることもあるよ。そういう時は、一定の損失で「損切り」して、違う銘柄に投資し直した方がいいこともあるんだ。ただし、会社の業績が良好で一時的な下落なら、保有を続ける判断もあり。大切なのは「必ず」という思い込みを捨てて、冷静に判断することだね！</p>
+</div>
+</div>
+<!-- 問題9 -->
+<div class="question-card">
+<h3 class="question-title">Q.09 「年間配当利回り」の計算方法は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        年間配当金 ÷ 株価 × 100(%)
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価 ÷ 年間配当金 × 100(%)
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        年間配当金 × 株数
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_8">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_8"><button class="answer-back hidden" id="backButton_2_8">問題に戻る</button>
+<h3 class="question-title">Q.09 「年間配当利回り」の計算方法は？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        年間配当金 ÷ 株価 × 100(%)
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価 ÷ 年間配当金 × 100(%)
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        年間配当金 × 株数
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>年間配当利回りは、投資した金額に対して年間でどれくらいの配当を受け取れるかを表す割合だよ！「年間配当金 ÷ 株価 × 100(%)」で計算するんだ。例えば、株価が1,000円で年間配当金が30円の株なら、配当利回りは30 ÷ 1,000 × 100 = 3%ってことになるよ。これが高いほど、投資金額に対して多くの配当がもらえるということだね。ただし、配当が高ければ良いというわけではなく、会社の安定性や成長性も大切な判断材料だよ！</p>
+</div>
+</div>
+<!-- 問題10 -->
+<div class="question-card">
+<h3 class="question-title">Q.10 「株主優待」を受け取るために必要なことは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株主総会に出席する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        証券会社に申請書を提出する
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        権利確定日に株を保有している
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_2_9">解答を見る</button></div><div class="question-card hidden" id="answerCard_2_9"><button class="answer-back hidden" id="backButton_2_9">問題に戻る</button>
+<h3 class="question-title">Q.10 「株主優待」を受け取るために必要なことは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株主総会に出席する
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        証券会社に申請書を提出する
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        権利確定日に株を保有している
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>株主優待を受け取るには、「権利確定日」に株を保有していることが必要なんだ！多くの会社は3月末や9月末などの決算期末日を権利確定日としているよ。この日に株主名簿に名前が載っていれば、自動的に優待が送られてくるんだ。申請も株主総会への出席も必要ないよ！「権利確定日」の3営業日前までに株を買っておかないと間に合わないから、優待目的で投資する場合はカレンダーをよく確認してね！</p>
+</div>
+</div>
+</div>
+<!-- 解答セクション -->
+<button class="header-answer-toggle">解答一覧を表示</button><div class="hidden" id="answersSection" style="display:none;">
+<div class="question-card">
+<h3 class="question-title">解答一覧</h3>
+<div class="answers-grid">
+<div class="answer-cell">
+<span class="font-semibold">Q.01:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.02:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.03:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.04:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.05:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.06:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.07:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.08:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.09:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.10:</span> C
+                    </div>
+</div>
+</div>
+<!-- 解答1 -->
+<!-- 解答2 -->
+<!-- 解答3 -->
+<!-- 解答4 -->
+<!-- 解答5 -->
+<!-- 解答6 -->
+<!-- 解答7 -->
+<!-- 解答8 -->
+<!-- 解答9 -->
+<!-- 解答10 -->
+</div>
+<div class="footer">
+<button class="toggle-button" id="toggleAnswersButton">問題に戻る</button>
+</div>
+</div>
+</div>
+
+<style>
+.section3 .option {
+  background-color: #047857;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+.section3 .option-label {
+  background-color: #ffffff;
+  color: #047857;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-weight: bold;
+}
+</style>
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f0fff4; /* 薄い緑色 */
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #10b981;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .toggle-button {
+            background-color: #10b981;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .toggle-button:hover {
+            background-color: #059669;
+        }
+        .question-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .option {
+            background-color: #047857;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .option-label {
+            background-color: white;
+            color: #047857;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        .correct-answer {
+            background-color: #e8f7e9;
+            border: 2px solid #4caf50;
+            color: #333;
+        }
+        .correct-label {
+            background-color: #4caf50;
+            color: white;
+        }
+        .explanation {
+            background-color: #ecfdf5;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .visual-tip {
+            background-color: #d1fae5;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+        .answers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .answer-cell {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .visual-container {
+            background-color: white;
+            border: 2px solid #a7f3d0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .hidden {
+            display: none;
+        }
+        
+        /* SVG スタイル */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+<div class="section3 tab-content" id="section3" style="display:none">
+<div class="container" style="background-color: #f0fff4;">
+<div class="header">
+<h1>セクション3：チャート分析（基礎編）</h1>
+<button class="toggle-button" id="toggleButton">解答を見る</button>
+</div>
+<!-- 問題セクション -->
+<div id="questionsSection">
+<!-- 問題1 -->
+<div class="question-card">
+<h3 class="question-title">Q.01 「ローソク足」の実体（棒の部分）は何を表している？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        高値と安値
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        始値と終値
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        取引量と価格
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_0">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_0"><button class="answer-back hidden" id="backButton_3_0">問題に戻る</button>
+<h3 class="question-title">Q.01 「ローソク足」の実体（棒の部分）は何を表している？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        高値と安値
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        始値と終値
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        取引量と価格
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ローソク足の太い部分（実体）は、その期間の「始値」と「終値」を表しているんだ！始値は取引開始時の価格、終値は取引終了時の価格だよ。この2つの価格がローソク足の上下の端になるんだ。実体が長ければ長いほど、その期間の値動きが大きかったことを示しているよ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>ローソク足の構造を示す図。実体（太い部分）が始値と終値を表し、ヒゲ（細い線）が高値と安値を表すことを視覚的に説明。陽線（白や緑）と陰線（黒や赤）の違いも図示。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 背景のグリッド線 -->
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="30" y2="30"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="70" y2="70"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="110" y2="110"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="150" y2="150"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="190" y2="190"></line>
+<!-- 陽線ローソク足 -->
+<line stroke="#333" stroke-width="2" x1="120" x2="120" y1="30" y2="70"></line> <!-- 上ヒゲ -->
+<rect fill="white" height="60" stroke="#333" stroke-width="2" width="30" x="105" y="70"></rect> <!-- 実体 -->
+<line stroke="#333" stroke-width="2" x1="120" x2="120" y1="130" y2="190"></line> <!-- 下ヒゲ -->
+<!-- 陰線ローソク足 -->
+<line stroke="#333" stroke-width="2" x1="280" x2="280" y1="30" y2="70"></line> <!-- 上ヒゲ -->
+<rect fill="#333" height="60" stroke="#333" stroke-width="2" width="30" x="265" y="70"></rect> <!-- 実体 -->
+<line stroke="#333" stroke-width="2" x1="280" x2="280" y1="130" y2="190"></line> <!-- 下ヒゲ -->
+<!-- 説明ラベル - 陽線 -->
+<text font-size="14" font-weight="bold" text-anchor="middle" x="120" y="20">陽線（上昇）</text>
+<text font-size="12" text-anchor="end" x="50" y="70">高値</text>
+<text font-size="12" text-anchor="end" x="50" y="130">始値</text>
+<text font-size="12" text-anchor="start" x="190" y="70">終値</text>
+<text font-size="12" text-anchor="end" x="50" y="190">安値</text>
+<!-- 説明ラベル - 陰線 -->
+<text font-size="14" font-weight="bold" text-anchor="middle" x="280" y="20">陰線（下落）</text>
+<text font-size="12" text-anchor="start" x="350" y="70">始値</text>
+<text font-size="12" text-anchor="start" x="350" y="130">終値</text>
+<!-- 説明線 -->
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="105" x2="80" y1="70" y2="60"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="135" x2="160" y1="70" y2="60"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="105" x2="80" y1="130" y2="140"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="135" x2="160" y1="130" y2="140"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="265" x2="240" y1="70" y2="60"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="295" x2="320" y1="70" y2="60"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="265" x2="240" y1="130" y2="140"></line>
+<line stroke="#666" stroke-dasharray="3,3" stroke-width="1" x1="295" x2="320" y1="130" y2="140"></line>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">ローソク足は1日（または一定期間）の値動きを表します。実体は始値と終値、ヒゲは高値と安値を示します。</p>
+</div>
+</div>
+</div>
+<!-- 問題2 -->
+<div class="question-card">
+<h3 class="question-title">Q.02 白いローソク足（陽線）は何を意味する？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        下落した（終値＜始値）
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        上昇した（終値＞始値）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        変化がなかった（終値＝始値）
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_1">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_1"><button class="answer-back hidden" id="backButton_3_1">問題に戻る</button>
+<h3 class="question-title">Q.02 白いローソク足（陽線）は何を意味する？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        下落した（終値＜始値）
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        上昇した（終値＞始値）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        変化がなかった（終値＝始値）
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>白いローソク足（または緑色のローソク足）は「陽線」と呼ばれ、その期間に株価が上昇したことを表しているんだ！始値よりも終値の方が高い状態だよ。つまり、取引開始時よりも終了時の方が株価が高かったということ。市場では強気（買い優勢）の状態を示していると考えられるんだ。反対に、黒や赤のローソク足は「陰線」と呼ばれて、下落を表すよ！</p>
+</div>
+</div>
+<!-- 問題3 -->
+<div class="question-card">
+<h3 class="question-title">Q.03 ローソク足の「ヒゲ」は何を表している？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        その日の高値と安値の範囲
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        取引量の多さ
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        翌日の価格予想
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_2">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_2"><button class="answer-back hidden" id="backButton_3_2">問題に戻る</button>
+<h3 class="question-title">Q.03 ローソク足の「ヒゲ」は何を表している？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        その日の高値と安値の範囲
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        取引量の多さ
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        翌日の価格予想
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ローソク足の「ヒゲ」は、その日（または期間）の最高値と最安値を表しているんだ！上ヒゲは実体（始値・終値の範囲）から高値までの範囲、下ヒゲは実体から安値までの範囲を示しているよ。ヒゲが長いということは、その時間帯に大きな値動きがあったことを示しているんだ。例えば、下ヒゲが長いと「一時的に大きく下げたけど、そこから価格が回復した」ということがわかるよ！</p>
+</div>
+</div>
+<!-- 問題4 -->
+<div class="question-card">
+<h3 class="question-title">Q.04 「移動平均線」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        過去の株価の平均値を結んだ線
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        上昇トレンドと下降トレンドの境界線
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の最高値と最安値を結んだ線
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_3">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_3"><button class="answer-back hidden" id="backButton_3_3">問題に戻る</button>
+<h3 class="question-title">Q.04 「移動平均線」とは何？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        過去の株価の平均値を結んだ線
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        上昇トレンドと下降トレンドの境界線
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の最高値と最安値を結んだ線
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>移動平均線は、一定期間の株価の平均値を計算して線で結んだものだよ！例えば、5日移動平均線なら直近5日間の平均株価、25日移動平均線なら直近25日間の平均株価を日々計算してつなげた線になるんだ。この線を使うと、短期的な値動きに惑わされず、全体的なトレンドがわかりやすくなるよ！また、短期と長期の移動平均線がクロス（交差）すると、相場の転換点のサインと考えられることもあるんだ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「移動平均線の意味と使い方」の図。実際の株価チャートに短期（5日）と長期（25日）の移動平均線を重ねて表示し、トレンドの方向性や売買タイミング（ゴールデンクロス・デッドクロス）を視覚的に説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 背景のグリッド線 -->
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="50" y2="50"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="100" y2="100"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="150" y2="150"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="200" y2="200"></line>
+<!-- 座標軸 -->
+<line stroke="#333" stroke-width="2" x1="50" x2="50" y1="50" y2="200"></line>
+<line stroke="#333" stroke-width="2" x1="50" x2="350" y1="200" y2="200"></line>
+<!-- 株価チャート（簡略化したローソク足） -->
+<line stroke="#333" stroke-width="1" x1="70" x2="70" y1="150" y2="180"></line> <!-- 1本目 -->
+<rect fill="white" height="20" stroke="#333" stroke-width="1" width="10" x="65" y="150"></rect>
+<line stroke="#333" stroke-width="1" x1="90" x2="90" y1="130" y2="170"></line> <!-- 2本目 -->
+<rect fill="white" height="30" stroke="#333" stroke-width="1" width="10" x="85" y="130"></rect>
+<line 110"="" stroke="#333" stroke-width="1" x1="110" x2="110" y1="120" y2="150"></line> <!-- 3本目 -->
+<rect fill="white" height="20" stroke="#333" stroke-width="1" width="10" x="105" y="120"></rect>
+<line stroke="#333" stroke-width="1" x1="130" x2="130" y1="100" y2="140"></line> <!-- 4本目 -->
+<rect fill="white" height="30" stroke="#333" stroke-width="1" width="10" x="125" y="100"></rect>
+<line stroke="#333" stroke-width="1" x1="150" x2="150" y1="90" y2="120"></line> <!-- 5本目 -->
+<rect fill="white" height="20" stroke="#333" stroke-width="1" width="10" x="145" y="90"></rect>
+<line stroke="#333" stroke-width="1" x1="170" x2="170" y1="100" y2="140"></line> <!-- 6本目 -->
+<rect fill="#333" height="30" stroke="#333" stroke-width="1" width="10" x="165" y="110"></rect>
+<line stroke="#333" stroke-width="1" x1="190" x2="190" y1="120" y2="160"></line> <!-- 7本目 -->
+<rect fill="#333" height="30" stroke="#333" stroke-width="1" width="10" x="185" y="130"></rect>
+<line stroke="#333" stroke-width="1" x1="210" x2="210" y1="140" y2="180"></line> <!-- 8本目 -->
+<rect fill="#333" height="30" stroke="#333" stroke-width="1" width="10" x="205" y="150"></rect>
+<line stroke="#333" stroke-width="1" x1="230" x2="230" y1="130" y2="170"></line> <!-- 9本目 -->
+<rect fill="#333" height="30" stroke="#333" stroke-width="1" width="10" x="225" y="140"></rect>
+<line stroke="#333" stroke-width="1" x1="250" x2="250" y1="110" y2="150"></line> <!-- 10本目 -->
+<rect fill="white" height="30" stroke="#333" stroke-width="1" width="10" x="245" y="120"></rect>
+<line stroke="#333" stroke-width="1" x1="270" x2="270" y1="90" y2="130"></line> <!-- 11本目 -->
+<rect fill="white" height="30" stroke="#333" stroke-width="1" width="10" x="265" y="90"></rect>
+<line stroke="#333" stroke-width="1" x1="290" x2="290" y1="70" y2="110"></line> <!-- 12本目 -->
+<rect fill="white" height="30" stroke="#333" stroke-width="1" width="10" x="285" y="70"></rect>
+<line stroke="#333" stroke-width="1" x1="310" x2="310" y1="60" y2="90"></line> <!-- 13本目 -->
+<rect fill="white" height="20" stroke="#333" stroke-width="1" width="10" x="305" y="60"></rect>
+<line stroke="#333" stroke-width="1" x1="330" x2="330" y1="70" y2="100"></line> <!-- 14本目 -->
+<rect fill="white" height="20" stroke="#333" stroke-width="1" width="10" x="325" y="70"></rect>
+<!-- 移動平均線 -->
+<polyline fill="none" points="70,165 90,160 110,140 130,125 150,110 170,120 190,140 210,160 230,150 250,130 270,110 290,95 310,80 330,80" stroke="#3b82f6" stroke-width="2"></polyline>
+<polyline fill="none" points="70,170 90,165 110,155 130,145 150,135 170,130 190,135 210,145 230,145 250,135 270,120 290,100 310,90 330,85" stroke="#ef4444" stroke-width="2"></polyline>
+<!-- 説明ラベル -->
+<text fill="#3b82f6" font-size="12" font-weight="bold" x="250" y="40">短期移動平均線（5日）</text>
+<line stroke="#3b82f6" stroke-width="2" x1="230" x2="210" y1="40" y2="40"></line>
+<text fill="#ef4444" font-size="12" font-weight="bold" x="250" y="60">長期移動平均線（25日）</text>
+<line stroke="#ef4444" stroke-width="2" x1="230" x2="210" y1="60" y2="60"></line>
+<!-- ゴールデンクロス -->
+<circle cx="250" cy="133" fill="none" r="8" stroke="#22c55e" stroke-width="2"></circle>
+<text fill="#22c55e" font-size="12" font-weight="bold" text-anchor="middle" x="250" y="120">ゴールデンクロス</text>
+<text fill="#22c55e" font-size="12" font-weight="bold" text-anchor="middle" x="250" y="220">(買いシグナル)</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">移動平均線は株価の平均値を示す線です。短期線と長期線のクロスはトレンド転換のサインとなります。</p>
+</div>
+</div>
+</div>
+<!-- 問題5 -->
+<div class="question-card">
+<h3 class="question-title">Q.05 「トレンドライン」を引く基本的な方法は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        始値と終値を結ぶ
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        高値同士または安値同士を結ぶ
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線の傾きに合わせて引く
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_4">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_4"><button class="answer-back hidden" id="backButton_3_4">問題に戻る</button>
+<h3 class="question-title">Q.05 「トレンドライン」を引く基本的な方法は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        始値と終値を結ぶ
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        高値同士または安値同士を結ぶ
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線の傾きに合わせて引く
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>トレンドラインは、上昇トレンドなら複数の安値を結ぶ線、下降トレンドなら複数の高値を結ぶ線なんだ！この線を引くことで、価格がどの方向に動いているのかをはっきりと視覚化できるよ。例えば、上昇トレンドライン（安値同士を結ぶ線）より下に株価が割り込むと、上昇トレンドが終わるサインかもしれないし、下降トレンドライン（高値同士を結ぶ線）を上に抜けると、下落トレンドが終わるサインの可能性があるんだ。2点以上の高値・安値を結ぶことで引けるけど、3点以上を結べるとより信頼性が高まるよ！</p>
+</div>
+</div>
+<!-- 問題6 -->
+<div class="question-card">
+<h3 class="question-title">Q.06 チャートで「上昇トレンド」を見分ける特徴は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        高値と安値がどんどん低くなっていく
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        高値と安値がどんどん高くなっていく
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        高値と安値が横ばいで推移する
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_5">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_5"><button class="answer-back hidden" id="backButton_3_5">問題に戻る</button>
+<h3 class="question-title">Q.06 チャートで「上昇トレンド」を見分ける特徴は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        高値と安値がどんどん低くなっていく
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        高値と安値がどんどん高くなっていく
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        高値と安値が横ばいで推移する
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>上昇トレンドの特徴は、「高値がどんどん高くなり、安値もどんどん高くなっていく」ということだよ！つまり、山と谷の両方が以前より高いレベルに形成されるんだ。これは買い手が強いことを示していて、「より高値で買ってもいい」と考える投資家が増えていることを表しているんだ。反対に、下降トレンドでは「高値も安値もどんどん低くなっていく」という特徴があるよ。チャートを見るときは、この「山と谷の位置関係」に注目してみよう！</p>
+</div>
+</div>
+<!-- 問題7 -->
+<div class="question-card">
+<h3 class="question-title">Q.07 「出来高」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価の上昇率
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        取引された株式の数量
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        市場参加者の数
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_6">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_6"><button class="answer-back hidden" id="backButton_3_6">問題に戻る</button>
+<h3 class="question-title">Q.07 「出来高」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価の上昇率
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        取引された株式の数量
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        市場参加者の数
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>出来高（できだか）とは、一定期間内（通常は1日）に取引された株式の数量のことだよ！出来高が多いということは、多くの人がその株を活発に売買しているということを意味するんだ。チャート分析では価格の動きだけでなく、この出来高の情報も重要なんだよ。例えば、株価が上昇し始めた時に出来高も増えていれば、その上昇トレンドは強いと判断できるし、株価が下がっている時に出来高が少なければ、本格的な下落ではない可能性もあるんだ。価格と出来高は、相場を読む上で車の両輪みたいなものだね！</p>
+</div>
+</div>
+<!-- 問題8 -->
+<div class="question-card">
+<h3 class="question-title">Q.08 「サポートライン（支持線）」とは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価がこれ以上上がりにくいとされるライン
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価がこれ以上下がりにくいとされるライン
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の平均値を示すライン
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_7">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_7"><button class="answer-back hidden" id="backButton_3_7">問題に戻る</button>
+<h3 class="question-title">Q.08 「サポートライン（支持線）」とは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価がこれ以上上がりにくいとされるライン
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株価がこれ以上下がりにくいとされるライン
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の平均値を示すライン
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>サポートライン（支持線）は、株価がそれ以上下がりにくいと考えられる価格帯を示す線だよ！過去に何度か同じ価格帯まで下がっても、そこから反発して上昇している場合に引くことが多いんだ。このラインには多くの買い注文が集中していると考えられるんだ。例えば、1,000円のところで何度か下げ止まっている銘柄なら、そこに多くの投資家が「この価格なら買い」と考えている可能性があるよ。反対に、株価がこれ以上上がりにくいとされるラインは「レジスタンスライン（抵抗線）」と呼ばれるんだ！</p>
+</div>
+</div>
+<!-- 問題9 -->
+<div class="question-card">
+<h3 class="question-title">Q.09 日足・週足・月足チャートの違いは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        分析する株式の種類が違う
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        1本のローソク足が表す期間の長さが違う
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        表示される価格の単位が違う
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_8">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_8"><button class="answer-back hidden" id="backButton_3_8">問題に戻る</button>
+<h3 class="question-title">Q.09 日足・週足・月足チャートの違いは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        分析する株式の種類が違う
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        1本のローソク足が表す期間の長さが違う
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        表示される価格の単位が違う
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>日足・週足・月足チャートの違いは、1本のローソク足が表す期間の長さだよ！日足チャートでは1本のローソク足が1日の値動き、週足チャートでは1週間の値動き、月足チャートでは1ヶ月の値動きを表しているんだ。期間が長くなるほど、短期的な値動きは平滑化され、長期的なトレンドがわかりやすくなるよ。例えば、デイトレードなら分足や日足チャートを使うことが多いけど、長期投資なら週足や月足チャートで大きなトレンドを把握するといいんだ。分析の目的によって、適切な時間軸のチャートを選ぶことが大切だね！</p>
+</div>
+</div>
+<!-- 問題10 -->
+<div class="question-card">
+<h3 class="question-title">Q.10 「ダブルトップ」パターンが示すサインは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        上昇トレンドの継続
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        下落トレンドへの転換
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        横ばい相場の継続
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_3_9">解答を見る</button></div><div class="question-card hidden" id="answerCard_3_9"><button class="answer-back hidden" id="backButton_3_9">問題に戻る</button>
+<h3 class="question-title">Q.10 「ダブルトップ」パターンが示すサインは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        上昇トレンドの継続
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        下落トレンドへの転換
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        横ばい相場の継続
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ダブルトップは、株価が同じような高値を2回付けた後に下落するチャートパターンで、下落トレンドへの転換サインとされているんだ！「M字型」とも呼ばれるよ。これは「2度チャレンジしても高値を更新できなかった＝買い手の力が弱まっている」と解釈されるんだ。特に、2つ目の山で出来高が減少していると、より信頼性が高くなるよ！反対に、同じような安値を2回付けた後に上昇する「ダブルボトム（W字型）」は上昇トレンドへの転換サインとされているんだ。チャートパターンは絶対ではないけど、多くの投資家が注目しているから、知っておくと役立つよ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「ダブルトップとダブルボトム」の図。M字型のダブルトップパターンとW字型のダブルボトムパターンを対比して示し、それぞれのパターンが示すトレンド転換の可能性を説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 背景のグリッド線 -->
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="50" y2="50"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="100" y2="100"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="150" y2="150"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="200" y2="200"></line>
+<!-- 座標軸 -->
+<line stroke="#333" stroke-width="2" x1="50" x2="50" y1="50" y2="200"></line>
+<line stroke="#333" stroke-width="2" x1="50" x2="350" y1="200" y2="200"></line>
+<!-- ダブルトップパターン -->
+<polyline fill="none" points="50,150 70,130 90,80 110,50 130,70 150,120 170,80 190,50 210,70 230,130 250,180" stroke="#333" stroke-width="3"></polyline>
+<!-- ネックライン -->
+<line stroke="#ef4444" stroke-dasharray="5,5" stroke-width="2" x1="130" x2="210" y1="120" y2="120"></line>
+<!-- 説明ラベル -->
+<text fill="#333" font-size="14" font-weight="bold" x="100" y="40">ダブルトップ（M字型）</text>
+<text fill="#333" font-size="12" x="110" y="55">下落トレンドへの転換サイン</text>
+<text fill="#ef4444" font-size="12" font-weight="bold" x="120" y="100">ネックライン</text>
+<line stroke="#ef4444" stroke-width="1" x1="140" x2="150" y1="105" y2="120"></line>
+<text fill="#333" font-size="12" font-weight="bold" x="100" y="50">1つ目の山</text>
+<line stroke="#333" stroke-width="1" x1="120" x2="110" y1="55" y2="50"></line>
+<text fill="#333" font-size="12" font-weight="bold" x="190" y="40">2つ目の山</text>
+<line stroke="#333" stroke-width="1" x1="210" x2="190" y1="45" y2="50"></line>
+<text fill="#333" font-size="12" font-weight="bold" x="250" y="160">下落トレンド開始</text>
+<path d="M 245 165 l -10 10" stroke="#333" stroke-width="1"></path>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">ダブルトップは同じような高値を2回付けた後に下落するパターンで、相場の転換点を示唆します。</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 解答セクション -->
+<button class="header-answer-toggle">解答一覧を表示</button><div class="hidden" id="answersSection" style="display:none;">
+<div class="question-card">
+<h3 class="question-title">解答一覧</h3>
+<div class="answers-grid">
+<div class="answer-cell">
+<span class="font-semibold">Q.01:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.02:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.03:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.04:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.05:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.06:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.07:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.08:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.09:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.10:</span> B
+                    </div>
+</div>
+</div>
+<!-- 解答1 -->
+<!-- 解答2 -->
+<!-- 解答3 -->
+<!-- 解答4 -->
+<!-- 解答5 -->
+<!-- 解答6 -->
+<!-- 解答7 -->
+<!-- 解答8 -->
+<!-- 解答9 -->
+<!-- 解答10 -->
+</div>
+<div class="footer">
+<button class="toggle-button" id="toggleAnswersButton">問題に戻る</button>
+</div>
+</div>
+</div>
+
+<style>
+.section4 .option {
+  background-color: #7c3aed;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+.section4 .option-label {
+  background-color: #ffffff;
+  color: #7c3aed;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-weight: bold;
+}
+</style>
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f3e8ff; /* 薄い紫色 */
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #8b5cf6;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .toggle-button {
+            background-color: #8b5cf6;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .toggle-button:hover {
+            background-color: #7c3aed;
+        }
+        .question-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .option {
+            background-color: #7c3aed;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .option-label {
+            background-color: white;
+            color: #7c3aed;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        .correct-answer {
+            background-color: #f5f3ff;
+            border: 2px solid #8b5cf6;
+            color: #333;
+        }
+        .correct-label {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .explanation {
+            background-color: #ede9fe;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .visual-tip {
+            background-color: #ddd6fe;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+        .answers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .answer-cell {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .visual-container {
+            background-color: white;
+            border: 2px solid #c4b5fd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .hidden {
+            display: none;
+        }
+        
+        /* SVG スタイル */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+<div class="section4 tab-content" id="section4" style="display:none">
+<div class="container" style="background-color: #f3e8ff;">
+<div class="header">
+<h1>セクション4：ファンダメンタルズ（基礎編）</h1>
+<button class="toggle-button" id="toggleButton">解答を見る</button>
+</div>
+<!-- 問題セクション -->
+<div id="questionsSection">
+<!-- 問題1 -->
+<div class="question-card">
+<h3 class="question-title">Q.01 「ファンダメンタルズ分析」とは何を分析する方法？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価チャートの動きやパターン
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の業績や財務状況
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        市場全体の値動きの傾向
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_0">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_0"><button class="answer-back hidden" id="backButton_4_0">問題に戻る</button>
+<h3 class="question-title">Q.01 「ファンダメンタルズ分析」とは何を分析する方法？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価チャートの動きやパターン
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        会社の業績や財務状況
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        市場全体の値動きの傾向
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ファンダメンタルズ分析とは、企業の「基礎的な価値」を調べる分析方法だよ！会社の売上や利益、資産や負債などの財務情報、そして将来の成長性や業界での競争力などを分析するんだ。簡単に言うと「この会社の実力はどれくらいあるのか？」を数字や事実から判断する方法なんだ。株価チャートの動きを分析する方法は「テクニカル分析」と呼ばれるよ！ファンダメンタルズ分析は中長期の投資に特に重要で、「この会社は本当に価値があるのか？」を見極めるのに役立つんだ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「ファンダメンタルズ分析とテクニカル分析の違い」を示す比較図。ファンダメンタルズ分析は決算書や企業情報から企業価値を分析し、テクニカル分析はチャートパターンから株価の動きを予測することを示す。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 左側：ファンダメンタルズ分析 -->
+<rect fill="#f3e8ff" height="170" rx="5" stroke="#8b5cf6" stroke-width="2" width="160" x="20" y="40"></rect>
+<text fill="#8b5cf6" font-size="14" font-weight="bold" text-anchor="middle" x="100" y="20">ファンダメンタルズ分析</text>
+<!-- ファンダメンタルズの要素 -->
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="40" y="60"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="80">決算書（財務諸表）</text>
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="40" y="100"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="120">業績・成長性</text>
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="40" y="140"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="160">市場での地位</text>
+<rect fill="#8b5cf6" height="20" rx="5" stroke="none" width="120" x="40" y="180"></rect>
+<text fill="white" font-size="12" text-anchor="middle" x="100" y="195">企業の本質的価値を分析</text>
+<!-- 右側：テクニカル分析 -->
+<rect fill="#dbeafe" height="170" rx="5" stroke="#3b82f6" stroke-width="2" width="160" x="220" y="40"></rect>
+<text fill="#3b82f6" font-size="14" font-weight="bold" text-anchor="middle" x="300" y="20">テクニカル分析</text>
+<!-- テクニカル分析の要素 -->
+<rect fill="white" height="30" rx="5" stroke="#3b82f6" stroke-width="1" width="120" x="240" y="60"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="80">株価チャート</text>
+<rect fill="white" height="30" rx="5" stroke="#3b82f6" stroke-width="1" width="120" x="240" y="100"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="120">出来高・移動平均線</text>
+<rect fill="white" height="30" rx="5" stroke="#3b82f6" stroke-width="1" width="120" x="240" y="140"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="160">チャートパターン</text>
+<rect fill="#3b82f6" height="20" rx="5" stroke="none" width="120" x="240" y="180"></rect>
+<text fill="white" font-size="12" text-anchor="middle" x="300" y="195">株価の動きを予測</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">ファンダメンタルズ分析は企業の本質的な価値を分析し、テクニカル分析は株価の動きを予測します。両方を組み合わせるとより効果的です。</p>
+</div>
+</div>
+</div>
+<!-- 問題2 -->
+<div class="question-card">
+<h3 class="question-title">Q.02 「決算書」で確認できないものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の売上高と利益
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の資産と負債
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の将来の株価
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_1">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_1"><button class="answer-back hidden" id="backButton_4_1">問題に戻る</button>
+<h3 class="question-title">Q.02 「決算書」で確認できないものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の売上高と利益
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の資産と負債
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        会社の将来の株価
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>決算書には会社の売上高や利益、資産や負債などの財務情報は載っているけど、「将来の株価」は載っていないよ！決算書は過去の実績や現在の状況を示すものだからね。将来の株価を予測するためには、決算書の情報を参考にすることはできるけど、それだけで確実に将来の株価がわかるわけではないんだ。株価は会社の業績だけでなく、市場の需給バランスや投資家心理、経済環境など様々な要因で変動するからね。決算書は会社の基礎体力を知るための貴重な情報源だけど、万能ではないってことを覚えておこう！</p>
+</div>
+</div>
+<!-- 問題3 -->
+<div class="question-card">
+<h3 class="question-title">Q.03 「PER（株価収益率）」が10倍の意味は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価が10年で10倍になる
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        現在の利益が10年続くと投資額を回収できる
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の資産価値が株価の10倍ある
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_2">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_2"><button class="answer-back hidden" id="backButton_4_2">問題に戻る</button>
+<h3 class="question-title">Q.03 「PER（株価収益率）」が10倍の意味は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価が10年で10倍になる
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        現在の利益が10年続くと投資額を回収できる
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の資産価値が株価の10倍ある
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>PER（株価収益率）が10倍というのは、「株価が一株当たりの純利益の10倍である」ということを意味するよ！これを別の視点から見ると、「現在の利益水準が続けば10年で投資額を回収できる」と考えることもできるんだ。例えば、株価が1,000円で一株当たりの純利益（EPS）が100円の会社のPERは10倍（1,000÷100=10）。つまり、毎年100円の利益が続けば、10年で投資額の1,000円を回収できる計算になるんだ。一般的にPERが低いほど割安、高いほど割高と言われるけど、成長企業は高PERでも将来の成長を期待して投資する人も多いよ！業種や成長性によっても適正なPERの水準は変わるから、他社と比較するといいね！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「PER計算例と意味」の図。株価1,000円、EPS100円の例で、PER=10倍の計算過程を示し、投資回収に10年かかることを視覚的に説明。低PERと高PERの意味（割安・割高）も合わせて示す。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 220">
+<!-- PER計算式 -->
+<text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="30">PER（株価収益率）= 株価 ÷ EPS</text>
+<!-- 具体例 -->
+<rect fill="#f3e8ff" height="40" rx="5" stroke="#8b5cf6" stroke-width="2" width="300" x="50" y="50"></rect>
+<text font-size="14" text-anchor="middle" x="200" y="75">例：株価1,000円、EPS100円の場合</text>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="110">PER = 1,000円 ÷ 100円 = 10倍</text>
+<!-- 投資回収期間の説明 -->
+<rect fill="#ede9fe" height="60" rx="5" stroke="#8b5cf6" stroke-width="1" width="300" x="50" y="130"></rect>
+<text font-size="14" text-anchor="middle" x="200" y="155">現在の利益水準(100円)が続くと...</text>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="200" y="175">10年で投資額(1,000円)を回収できる</text>
+<!-- PERの解釈 -->
+<line stroke="#8b5cf6" stroke-width="1" x1="50" x2="350" y1="205" y2="205"></line>
+<text fill="#4c1d95" font-size="12" text-anchor="middle" x="100" y="220">低PER（割安）</text>
+<text fill="#4c1d95" font-size="12" text-anchor="middle" x="300" y="220">高PER（割高/成長期待）</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">PERは投資回収にかかる理論上の年数を表します。低いPERほど割安とされますが、企業の成長性も考慮する必要があります。</p>
+</div>
+</div>
+</div>
+<!-- 問題4 -->
+<div class="question-card">
+<h3 class="question-title">Q.04 「PBR（株価純資産倍率）」が1倍を下回っている場合の意味は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価が会社の解散価値（純資産）を下回っている
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の1年間の利益が投資額を上回っている
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価が今後1年以内に2倍になる可能性が高い
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_3">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_3"><button class="answer-back hidden" id="backButton_4_3">問題に戻る</button>
+<h3 class="question-title">Q.04 「PBR（株価純資産倍率）」が1倍を下回っている場合の意味は？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        株価が会社の解散価値（純資産）を下回っている
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の1年間の利益が投資額を上回っている
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価が今後1年以内に2倍になる可能性が高い
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>PBR（株価純資産倍率）が1倍を下回っているということは、株価が会社の解散価値（純資産）よりも安くなっているということだよ！つまり、理論上はその会社を解散して財産を分配したほうが、株を買うより得になる状態なんだ。例えば、1株あたりの純資産（BPS）が1,000円なのに、株価が800円だとPBRは0.8倍（800÷1,000=0.8）。これは800円で買った株が、解散したら1,000円分の資産に相当するということになるよ。一般的にPBRが1倍を下回る株は割安と見られることが多いけど、「なぜ割安なのか？」という理由（業績不振や将来不安など）をしっかり確認することが大切だね！</p>
+</div>
+</div>
+<!-- 問題5 -->
+<div class="question-card">
+<h3 class="question-title">Q.05 「ROE（自己資本利益率）」が高い企業の特徴は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株主から集めた資金を効率よく利益に変換している
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        借入金が多く財務リスクが高い
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        現金をたくさん持っている
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_4">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_4"><button class="answer-back hidden" id="backButton_4_4">問題に戻る</button>
+<h3 class="question-title">Q.05 「ROE（自己資本利益率）」が高い企業の特徴は？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        株主から集めた資金を効率よく利益に変換している
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        借入金が多く財務リスクが高い
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        現金をたくさん持っている
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ROE（自己資本利益率）が高い企業は、株主から集めた資金（自己資本）を効率よく使って利益を生み出している企業だよ！ROEは「当期純利益÷自己資本×100」で計算され、「株主資本をどれだけ効率的に使って利益を上げられたか」を示す指標なんだ。例えば、ROEが15%なら、株主資本100万円に対して15万円の利益を生み出したということになるよ。一般的に、ROEが10%以上あれば優良企業と言われることが多いね。ただし、借入金を増やして無理に見かけ上のROEを高めている企業もあるから、「なぜROEが高いのか」という理由も確認することが大切だよ！</p>
+</div>
+</div>
+<!-- 問題6 -->
+<div class="question-card">
+<h3 class="question-title">Q.06 「配当利回り」の計算方法は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        配当金 ÷ 株価 × 100
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        配当金 × 株価 ÷ 100
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価 ÷ 配当金 × 100
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_5">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_5"><button class="answer-back hidden" id="backButton_4_5">問題に戻る</button>
+<h3 class="question-title">Q.06 「配当利回り」の計算方法は？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        配当金 ÷ 株価 × 100
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        配当金 × 株価 ÷ 100
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価 ÷ 配当金 × 100
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>配当利回りは「配当金÷株価×100」で計算するんだ！これは、投資した金額に対して年間どれくらいの配当を受け取れるかを表す割合だよ。例えば、株価が1,000円で年間配当金が30円の株なら、配当利回りは「30÷1,000×100=3%」ということになるよ。この指標は、定期預金の金利などと比較しやすいんだ。ただし、配当利回りだけで投資判断するのではなく、企業の成長性やリスクなども考慮することが大切だね！特に若い成長企業は配当より事業拡大に資金を使うことが多いので、配当利回りが低くても将来性があるケースも多いんだ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「配当利回りの計算例」の図。株価1,000円、年間配当30円の具体例で計算過程を示し、定期預金金利との比較も視覚的に表現。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 背景の分割線 -->
+<line stroke="#e5e7eb" stroke-dasharray="4,4" stroke-width="1" x1="200" x2="200" y1="40" y2="220"></line>
+<!-- 配当利回りの計算式 -->
+<text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="30">配当利回り = 年間配当金 ÷ 株価 × 100</text>
+<!-- 左側：計算例 -->
+<rect fill="#f3e8ff" height="100" rx="5" stroke="#8b5cf6" stroke-width="2" width="160" x="20" y="50"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="100" y="70">計算例</text>
+<text font-size="13" text-anchor="middle" x="100" y="90">年間配当金: 30円</text>
+<text font-size="13" text-anchor="middle" x="100" y="110">株価: 1,000円</text>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="100" y="135">30 ÷ 1,000 × 100 = 3%</text>
+<!-- 右側：意味 -->
+<rect fill="#ede9fe" height="100" rx="5" stroke="#8b5cf6" stroke-width="1" width="160" x="220" y="50"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="300" y="70">意味</text>
+<text font-size="13" text-anchor="middle" x="300" y="95">投資金額に対して</text>
+<text font-size="13" text-anchor="middle" x="300" y="115">年間3%の配当収入</text>
+<text font-size="13" text-anchor="middle" x="300" y="135">が得られる</text>
+<!-- 金利比較 -->
+<rect fill="#ddd6fe" height="50" rx="5" stroke="#8b5cf6" stroke-width="1" width="360" x="20" y="170"></rect>
+<text font-size="14" text-anchor="middle" x="200" y="195">定期預金(0.01%)と比較すると300倍の利回り</text>
+<text font-size="12" text-anchor="middle" x="200" y="215">※ただし株価変動リスクがある点に注意</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">配当利回りは投資金額に対する年間配当の割合です。金利と比較しやすいですが、株価変動リスクがある点に注意が必要です。</p>
+</div>
+</div>
+</div>
+<!-- 問題7 -->
+<div class="question-card">
+<h3 class="question-title">Q.07 「自己資本比率」が高い企業の特徴として正しいのは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        財務基盤が安定している
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価が上昇しやすい
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金が必ず高い
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_6">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_6"><button class="answer-back hidden" id="backButton_4_6">問題に戻る</button>
+<h3 class="question-title">Q.07 「自己資本比率」が高い企業の特徴として正しいのは？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        財務基盤が安定している
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価が上昇しやすい
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        配当金が必ず高い
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>自己資本比率が高い企業は、財務基盤が安定している特徴があるよ！自己資本比率は「自己資本÷総資産×100」で計算されるんだ。簡単に言うと、「会社の資産のうち、どれくらいが自前のお金（借金ではない資金）で賄われているか」を示す指標なんだ。例えば、自己資本比率が60%なら、会社の資産の60%は借入金ではなく自己資金でまかなわれているということだよ。一般的に、この比率が高いほど財務的に安定していて、経済環境が悪化しても倒産リスクが低いと考えられるんだ。ただし、自己資本比率が高すぎると「もっと積極的に投資しても良いのでは？」と見られることもあるよ。業種によって適正な水準は異なるから、同業他社と比較するといいね！</p>
+</div>
+</div>
+<!-- 問題8 -->
+<div class="question-card">
+<h3 class="question-title">Q.08 「EPS（一株当たり利益）」が増加傾向にある企業は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        業績が悪化している企業
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        成長している企業
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        借入金が多い企業
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_7">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_7"><button class="answer-back hidden" id="backButton_4_7">問題に戻る</button>
+<h3 class="question-title">Q.08 「EPS（一株当たり利益）」が増加傾向にある企業は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        業績が悪化している企業
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        成長している企業
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        借入金が多い企業
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>EPS（一株当たり利益）が増加傾向にある企業は、成長している企業と言えるよ！EPSは「当期純利益÷発行済株式数」で計算され、一株あたりどれだけの利益を生み出しているかを示す指標なんだ。例えば、当期純利益が1億円で、発行済株式数が100万株なら、EPSは100円（1億÷100万=100）という計算になるよ。このEPSが年々増えているということは、企業が着実に利益を伸ばしているということだから、成長企業の特徴と言えるんだ。株主にとって、企業が稼ぐ利益は最終的に配当や株価上昇という形で還元されるから、EPSの成長は重要な指標なんだよ！</p>
+</div>
+</div>
+<!-- 問題9 -->
+<div class="question-card">
+<h3 class="question-title">Q.09 「営業利益」が表すものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の売上から仕入れ原価を引いた金額
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社の本業での儲け（売上から本業のコストを引いた金額）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社が1年間で得た全ての収入
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_8">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_8"><button class="answer-back hidden" id="backButton_4_8">問題に戻る</button>
+<h3 class="question-title">Q.09 「営業利益」が表すものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の売上から仕入れ原価を引いた金額
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        会社の本業での儲け（売上から本業のコストを引いた金額）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社が1年間で得た全ての収入
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>営業利益とは、会社の本業での儲けを表す指標なんだ！売上高から売上原価と販売費・一般管理費を引いて計算されるよ。簡単に言うと「本業で稼いだお金からコストを引いた、本業の儲け」ということだね。例えば、売上高が100億円、売上原価が60億円、販管費が20億円なら、営業利益は20億円（100億-60億-20億=20億）になるよ。営業利益は会社の本業の実力を示す重要な指標で、一時的な特別利益や金融収支などが含まれない「実力値」として見られることが多いんだ。業績を分析する時は「営業利益がしっかり出ているか」「前年から成長しているか」などをチェックするといいよ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「損益計算書の構造と営業利益の位置づけ」を示す図。売上高から売上原価、販管費を引いて営業利益が算出される流れを階段状に表現し、その先の経常利益、当期純利益との関係も示す。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 損益計算書の階段 -->
+<rect fill="#f3e8ff" height="40" rx="0" stroke="#8b5cf6" stroke-width="1" width="360" x="20" y="40"></rect>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="65">売上高</text>
+<path d="M 20 80 L 340 80 L 340 120 L 20 120 Z" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1"></path>
+<text font-size="14" text-anchor="middle" x="180" y="105">売上原価</text>
+<line stroke="#8b5cf6" stroke-width="2" x1="340" x2="360" y1="80" y2="80"></line>
+<text font-size="14" text-anchor="middle" x="350" y="95">↓</text>
+<path d="M 20 120 L 280 120 L 280 160 L 20 160 Z" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="1"></path>
+<text font-size="14" text-anchor="middle" x="150" y="145">販売費・一般管理費</text>
+<line stroke="#8b5cf6" stroke-width="2" x1="280" x2="360" y1="120" y2="120"></line>
+<text font-size="14" text-anchor="middle" x="350" y="135">↓</text>
+<!-- 営業利益 -->
+<rect fill="#c4b5fd" height="40" rx="0" stroke="#8b5cf6" stroke-width="2" width="360" x="20" y="160"></rect>
+<text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="185">営業利益（本業での儲け）</text>
+<!-- 説明ラベル -->
+<text fill="#8b5cf6" font-size="14" font-weight="bold" text-anchor="start" x="380" y="180">←重要!</text>
+<!-- その先の利益 -->
+<text font-size="12" text-anchor="middle" x="200" y="220">金融収支などを加味→経常利益→税金などを差し引き→当期純利益</text>
+<text font-size="12" font-style="italic" text-anchor="middle" x="200" y="240">※営業利益は「本業の実力」を示す重要な指標</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">営業利益は企業の本業での稼ぐ力を表す指標です。一時的な要因や金融収支の影響を受けない「実力値」として重視されます。</p>
+</div>
+</div>
+</div>
+<!-- 問題10 -->
+<div class="question-card">
+<h3 class="question-title">Q.10 「時価総額」とは何を表す指標？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の総資産の市場価値
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        会社全体の株式価値（株価×発行済株式数）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の年間売上高
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_4_9">解答を見る</button></div><div class="question-card hidden" id="answerCard_4_9"><button class="answer-back hidden" id="backButton_4_9">問題に戻る</button>
+<h3 class="question-title">Q.10 「時価総額」とは何を表す指標？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        会社の総資産の市場価値
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        会社全体の株式価値（株価×発行済株式数）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        会社の年間売上高
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>時価総額とは、「株価×発行済株式数」で計算される、会社全体の株式価値を表す指標だよ！簡単に言うと「その会社の株式をすべて買うといくらかかるか」を示すものなんだ。例えば、株価が1,000円で発行済株式数が100万株の会社なら、時価総額は10億円（1,000円×100万株=10億円）になるよ。時価総額は会社の規模を表す指標として広く使われていて、「大型株」「中型株」「小型株」などの分類にも使われるんだ。ただし、時価総額が大きいからといって必ずしも良い会社とは限らないし、小さいからダメというわけでもないよ。企業の実力を判断するには、売上高や利益、成長性なども合わせて見ることが大切だね！</p>
+</div>
+</div>
+</div>
+<!-- 解答セクション -->
+<button class="header-answer-toggle">解答一覧を表示</button><div class="hidden" id="answersSection" style="display:none;">
+<div class="question-card">
+<h3 class="question-title">解答一覧</h3>
+<div class="answers-grid">
+<div class="answer-cell">
+<span class="font-semibold">Q.01:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.02:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.03:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.04:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.05:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.06:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.07:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.08:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.09:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.10:</span> B
+                    </div>
+</div>
+</div>
+<!-- 解答1 -->
+<!-- 解答2 -->
+<!-- 解答3 -->
+<!-- 解答4 -->
+<!-- 解答5 -->
+<!-- 解答6 -->
+<!-- 解答7 -->
+<!-- 解答8 -->
+<!-- 解答9 -->
+<!-- 解答10 -->
+</div>
+<div class="footer">
+<button class="toggle-button" id="toggleAnswersButton">問題に戻る</button>
+</div>
+</div>
+</div>
+
+<style>
+.section5 .option {
+  background-color: #b91c1c;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+.section5 .option-label {
+  background-color: #ffffff;
+  color: #b91c1c;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-weight: bold;
+}
+</style>
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fef2f2; /* 薄い赤色 */
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #ef4444;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .toggle-button {
+            background-color: #ef4444;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .toggle-button:hover {
+            background-color: #dc2626;
+        }
+        .question-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .option {
+            background-color: #b91c1c;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .option-label {
+            background-color: white;
+            color: #b91c1c;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        .correct-answer {
+            background-color: #fee2e2;
+            border: 2px solid #ef4444;
+            color: #333;
+        }
+        .correct-label {
+            background-color: #ef4444;
+            color: white;
+        }
+        .explanation {
+            background-color: #fee2e2;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .visual-tip {
+            background-color: #fecaca;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+        .answers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .answer-cell {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .visual-container {
+            background-color: white;
+            border: 2px solid #fca5a5;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .hidden {
+            display: none;
+        }
+        
+        /* SVG スタイル */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+<div class="section5 tab-content" id="section5" style="display:none">
+<div class="container" style="background-color: #fef2f2;">
+<div class="header">
+<h1>セクション5：テクニカル分析（基礎編）</h1>
+<button class="toggle-button" id="toggleButton">解答を見る</button>
+</div>
+<!-- 問題セクション -->
+<div id="questionsSection">
+<!-- 問題1 -->
+<div class="question-card">
+<h3 class="question-title">Q.01 「テクニカル分析」の目的は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        企業の財務状況を分析すること
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価の変動パターンから将来の値動きを予測すること
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        経済全体の動向を分析すること
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_0">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_0"><button class="answer-back hidden" id="backButton_5_0">問題に戻る</button>
+<h3 class="question-title">Q.01 「テクニカル分析」の目的は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        企業の財務状況を分析すること
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株価の変動パターンから将来の値動きを予測すること
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        経済全体の動向を分析すること
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>テクニカル分析とは、株価のチャートやさまざまな指標を分析して、将来の値動きを予測する方法だよ！企業の業績や財務状況を分析するのは「ファンダメンタルズ分析」と呼ばれるもので、テクニカル分析とは異なるアプローチなんだ。テクニカル分析の基本的な考え方は、「過去の値動きのパターンは繰り返される」「相場の動きには一定の法則性がある」というものなんだ。株価チャートの形状や、RSI、MACD、移動平均線などの指標を使って、買いどき・売りどきを判断する方法として多くの投資家に活用されているよ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「テクニカル分析とファンダメンタルズ分析の違い」を示す図。テクニカル分析はチャートパターンや指標で株価の動きを予測し、ファンダメンタルズ分析は決算書などから企業の価値を分析することを対比。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 左側：テクニカル分析 -->
+<rect fill="#fee2e2" height="170" rx="5" stroke="#ef4444" stroke-width="2" width="160" x="20" y="40"></rect>
+<text fill="#ef4444" font-size="14" font-weight="bold" text-anchor="middle" x="100" y="20">テクニカル分析</text>
+<!-- テクニカル分析の要素 -->
+<rect fill="white" height="30" rx="5" stroke="#ef4444" stroke-width="1" width="120" x="40" y="60"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="80">株価チャート</text>
+<rect fill="white" height="30" rx="5" stroke="#ef4444" stroke-width="1" width="120" x="40" y="100"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="120">テクニカル指標</text>
+<rect fill="white" height="30" rx="5" stroke="#ef4444" stroke-width="1" width="120" x="40" y="140"></rect>
+<text font-size="12" text-anchor="middle" x="100" y="160">値動きのパターン</text>
+<rect fill="#ef4444" height="20" rx="5" stroke="none" width="120" x="40" y="180"></rect>
+<text fill="white" font-size="12" text-anchor="middle" x="100" y="195">将来の株価動向を予測</text>
+<!-- 右側：ファンダメンタルズ分析 -->
+<rect fill="#f3e8ff" height="170" rx="5" stroke="#8b5cf6" stroke-width="2" width="160" x="220" y="40"></rect>
+<text fill="#8b5cf6" font-size="14" font-weight="bold" text-anchor="middle" x="300" y="20">ファンダメンタルズ分析</text>
+<!-- ファンダメンタルズ分析の要素 -->
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="240" y="60"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="80">決算書（財務諸表）</text>
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="240" y="100"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="120">業績・成長性</text>
+<rect fill="white" height="30" rx="5" stroke="#8b5cf6" stroke-width="1" width="120" x="240" y="140"></rect>
+<text font-size="12" text-anchor="middle" x="300" y="160">経営戦略・市場環境</text>
+<rect fill="#8b5cf6" height="20" rx="5" stroke="none" width="120" x="240" y="180"></rect>
+<text fill="white" font-size="12" text-anchor="middle" x="300" y="195">企業の本質的価値を分析</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">テクニカル分析は価格の動きやパターンから将来を予測し、ファンダメンタルズ分析は企業の実力から本質的価値を評価します。</p>
+</div>
+</div>
+</div>
+<!-- 問題2 -->
+<div class="question-card">
+<h3 class="question-title">Q.02 「RSI（相対力指数）」が示すものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価の平均値
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価の値動きの強さと勢い（買われ過ぎ・売られ過ぎ）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価と移動平均線の乖離（かいり）率
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_1">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_1"><button class="answer-back hidden" id="backButton_5_1">問題に戻る</button>
+<h3 class="question-title">Q.02 「RSI（相対力指数）」が示すものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価の平均値
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        株価の値動きの強さと勢い（買われ過ぎ・売られ過ぎ）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価と移動平均線の乖離（かいり）率
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>RSI（Relative Strength Index：相対力指数）は、株価の値動きの強さと勢いを示すオシレーター系の指標だよ！一定期間（通常は14日間）の上昇幅と下落幅を比較して、0～100の範囲で数値化されるんだ。簡単に言うと「株価の上昇パワーと下落パワーのバランスはどうなっているか？」を示す指標なんだよ。RSIが70を超えると「買われ過ぎ」、30を下回ると「売られ過ぎ」と判断されることが多いんだ。「買われ過ぎ」のときは反落の可能性があり、「売られ過ぎ」のときは反発の可能性があると考えるよ！RSIは短期的な売買タイミングの判断に役立つ指標の一つなんだ。</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「RSIの見方」を示す図。RSIが0～100のメーターとして表示され、30以下の「売られ過ぎ」ゾーンと70以上の「買われ過ぎ」ゾーンを色分けして表現。実際の株価チャートとRSIを重ねて表示し、売買タイミングの関係を視覚的に説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 上部：株価チャート（簡略化） -->
+<rect fill="#f9fafb" height="100" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="20"></rect>
+<polyline fill="none" points="50,80 70,75 90,85 110,70 130,60 150,65 170,55 190,40 210,50 230,45 250,60 270,75 290,65 310,80 330,90 350,85" stroke="#111827" stroke-width="2"></polyline>
+<!-- 下部：RSI -->
+<rect fill="#f9fafb" height="90" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="140"></rect>
+<!-- RSIの基準線 -->
+<line stroke="#ef4444" stroke-dasharray="3,3" stroke-width="1" x1="50" x2="350" y1="160" y2="160"></line>
+<text fill="#ef4444" font-size="10" font-weight="bold" text-anchor="end" x="40" y="160">70</text>
+<rect fill="#fecaca" fill-opacity="0.5" height="20" width="300" x="50" y="140"></rect>
+<line stroke="#3b82f6" stroke-dasharray="3,3" stroke-width="1" x1="50" x2="350" y1="185" y2="185"></line>
+<text fill="#3b82f6" font-size="10" font-weight="bold" text-anchor="end" x="40" y="185">50</text>
+<line stroke="#22c55e" stroke-dasharray="3,3" stroke-width="1" x1="50" x2="350" y1="210" y2="210"></line>
+<text fill="#22c55e" font-size="10" font-weight="bold" text-anchor="end" x="40" y="210">30</text>
+<rect fill="#bbf7d0" fill-opacity="0.5" height="20" width="300" x="50" y="210"></rect>
+<!-- RSIライン -->
+<polyline fill="none" points="50,190 70,180 90,170 110,155 130,145 150,150 170,145 190,140 210,150 230,160 250,180 270,200 290,215 310,200 330,190 350,180" stroke="#7c3aed" stroke-width="2"></polyline>
+<!-- 説明ラベル -->
+<text font-size="12" font-weight="bold" text-anchor="middle" x="200" y="10">株価チャート</text>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="200" y="130">RSI（相対力指数）</text>
+<text fill="#ef4444" font-size="10" x="320" y="150">買われ過ぎ</text>
+<text fill="#22c55e" font-size="10" x="320" y="220">売られ過ぎ</text>
+<!-- 売買ポイント例 -->
+<circle cx="190" cy="140" fill="#ef4444" r="5"></circle>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="190" y="130">売りシグナル</text>
+<circle cx="290" cy="215" fill="#22c55e" r="5"></circle>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="290" y="235">買いシグナル</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">RSIは0～100の範囲で値動きの強さを表します。70以上で「買われ過ぎ」、30以下で「売られ過ぎ」と判断します。</p>
+</div>
+</div>
+</div>
+<!-- 問題3 -->
+<div class="question-card">
+<h3 class="question-title">Q.03 RSIが70を超えると一般的に何を示す？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        売られ過ぎ（買いのチャンス）
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        買われ過ぎ（売りのチャンス）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の安定期
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_2">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_2"><button class="answer-back hidden" id="backButton_5_2">問題に戻る</button>
+<h3 class="question-title">Q.03 RSIが70を超えると一般的に何を示す？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        売られ過ぎ（買いのチャンス）
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">B</span>
+                        買われ過ぎ（売りのチャンス）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の安定期
+                    </div>
+</div>
+<div class="explanation">
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>RSIが70を超えると、一般的に「買われ過ぎ」の状態と判断されるよ！これは株価が短期間に急激に上昇して、反落の可能性が高まっている状態を示しているんだ。つまり、「そろそろ売りどき」かもしれないというサインになるんだよ。反対に、RSIが30を下回ると「売られ過ぎ」の状態と判断され、反発の可能性が高まっているため「買いどき」かもしれないというサインになるよ。ただし、RSIだけで判断するのではなく、他の指標やチャートパターンも合わせて総合的に判断することが重要だね！また、強い上昇トレンドの中では、RSIが長期間70を超えた状態が続くこともあるから、相場の状況もよく見ておこう！</p>
+</div>
+</div>
+<!-- 解答4 -->
+<!-- 解答5 -->
+<!-- 解答6 -->
+<!-- 解答7 -->
+<!-- 解答8 -->
+<!-- 解答9 -->
+<!-- 解答10 -->
+</div>
+<!-- 問題4 -->
+<div class="question-card">
+<h3 class="question-title">Q.04 「MACD（マックディー）」が示すものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価のトレンドと方向性
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        出来高の変化
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の変動率
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_3">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_3"><button class="answer-back hidden" id="backButton_5_3">問題に戻る</button>
+<h3 class="question-title">Q.04 「MACD（マックディー）」が示すものは？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        株価のトレンドと方向性
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        出来高の変化
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        株価の変動率
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>MACD（Moving Average Convergence Divergence：移動平均収束拡散）は、株価のトレンドと方向性を示す代表的なテクニカル指標だよ！短期と長期の指数移動平均線の差をグラフ化したもので、トレンドの変化や勢いを捉えるのに役立つんだ。MACDは「MACDライン」「シグナル」「ヒストグラム」の3つの要素で構成されていて、これらの関係からトレンドの方向や強さを読み取ることができるよ。特に、MACDラインとシグナルのクロス（交差）は重要な売買サインとされていて、MACDラインがシグナルを上から下に抜けると「売りサイン」、下から上に抜けると「買いサイン」と考えられるんだ。初心者にはやや複雑な指標かもしれないけど、トレンドの変化を捉えるのに非常に役立つ指標だよ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「MACDの見方」を示す図。MACDラインとシグナル、ヒストグラムの関係を視覚化し、ゴールデンクロスとデッドクロスのポイントを表示。トレンド転換の予測にどう役立つかを説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 上部：株価チャート（簡略化） -->
+<rect fill="#f9fafb" height="80" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="20"></rect>
+<polyline fill="none" points="50,70 70,65 90,75 110,60 130,50 150,55 170,45 190,30 210,40 230,35 250,50 270,65 290,55 310,70 330,80 350,75" stroke="#111827" stroke-width="2"></polyline>
+<!-- 下部：MACD -->
+<rect fill="#f9fafb" height="110" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="120"></rect>
+<!-- ゼロライン -->
+<line stroke="#6b7280" stroke-dasharray="3,3" stroke-width="1" x1="50" x2="350" y1="175" y2="175"></line>
+<text fill="#6b7280" font-size="10" text-anchor="end" x="40" y="175">0</text>
+<!-- MACDライン -->
+<polyline fill="none" points="50,180 70,182 90,185 110,175 130,165 150,160 170,155 190,150 210,160 230,170 250,185 270,190 290,182 310,175 330,170 350,168" stroke="#3b82f6" stroke-width="2"></polyline>
+<!-- シグナルライン -->
+<polyline fill="none" points="50,178 70,180 90,180 110,178 130,175 150,170 170,165 190,162 210,165 230,168 250,175 270,180 290,182 310,180 330,175 350,172" stroke="#ef4444" stroke-width="2"></polyline>
+<!-- ヒストグラム -->
+<rect fill="#fca5a5" height="7" width="6" x="60" y="175"></rect>
+<rect fill="#fca5a5" height="5" width="6" x="80" y="175"></rect>
+<rect fill="#bfdbfe" height="-3" width="6" x="100" y="175"></rect>
+<rect fill="#bfdbfe" height="-10" width="6" x="120" y="175"></rect>
+<rect fill="#bfdbfe" height="-10" width="6" x="140" y="175"></rect>
+<rect fill="#bfdbfe" height="-10" width="6" x="160" y="175"></rect>
+<rect fill="#bfdbfe" height="-12" width="6" x="180" y="175"></rect>
+<rect fill="#bfdbfe" height="-5" width="6" x="200" y="175"></rect>
+<rect fill="#fca5a5" height="2" width="6" x="220" y="175"></rect>
+<rect fill="#fca5a5" height="10" width="6" x="240" y="175"></rect>
+<rect fill="#fca5a5" height="10" width="6" x="260" y="175"></rect>
+<rect fill="#fca5a5" height="0" width="6" x="280" y="175"></rect>
+<rect fill="#bfdbfe" height="-5" width="6" x="300" y="175"></rect>
+<rect fill="#bfdbfe" height="-5" width="6" x="320" y="175"></rect>
+<rect fill="#bfdbfe" height="-4" width="6" x="340" y="175"></rect>
+<!-- 説明ラベル -->
+<text font-size="12" font-weight="bold" text-anchor="middle" x="200" y="10">株価チャート</text>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="200" y="110">MACD</text>
+<text fill="#3b82f6" font-size="10" x="90" y="220">MACDライン</text>
+<line stroke="#3b82f6" stroke-width="2" x1="80" x2="70" y1="220" y2="220"></line>
+<text fill="#ef4444" font-size="10" x="180" y="220">シグナル</text>
+<line stroke="#ef4444" stroke-width="2" x1="170" x2="160" y1="220" y2="220"></line>
+<text fill="#6b7280" font-size="10" x="270" y="220">ヒストグラム</text>
+<rect fill="#fca5a5" height="6" width="6" x="245" y="217"></rect>
+<!-- 売買ポイント例 -->
+<circle cx="190" cy="162" fill="#22c55e" r="5"></circle>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="190" y="145">ゴールデンクロス</text>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="190" y="155">(買いシグナル)</text>
+<circle cx="230" cy="168" fill="#ef4444" r="5"></circle>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="230" y="145">デッドクロス</text>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="230" y="155">(売りシグナル)</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">MACDは短期と長期の移動平均線の差から相場のトレンドを捉える指標です。MACDラインとシグナルのクロスが重要な売買サインになります。</p>
+</div>
+</div>
+</div>
+<!-- 問題5 -->
+<div class="question-card">
+<h3 class="question-title">Q.05 MACDで「ゴールデンクロス」が発生すると、一般的に何を示す？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        買いのタイミング（上昇トレンドへの転換）
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        売りのタイミング（下降トレンドへの転換）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        相場の停滞期
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_4">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_4"><button class="answer-back hidden" id="backButton_5_4">問題に戻る</button>
+<h3 class="question-title">Q.05 MACDで「ゴールデンクロス」が発生すると、一般的に何を示す？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        買いのタイミング（上昇トレンドへの転換）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        売りのタイミング（下降トレンドへの転換）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        相場の停滞期
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>MACDにおける「ゴールデンクロス」とは、MACDライン（短期線）がシグナル（長期線）を下から上に突き抜けることで、一般的に「買いのタイミング」や「上昇トレンドへの転換」を示すサインとされているよ！これは、短期の動きが長期の動きを上回り始めたことを意味し、相場が上昇モードに転換する可能性が高まったことを示しているんだ。反対に、MACDラインがシグナルを上から下に突き抜ける「デッドクロス」は、「売りのタイミング」や「下降トレンドへの転換」を示すサインとされているよ。MACDのクロスは、トレンド転換の比較的信頼性の高いサインとして多くの投資家に注目されているんだ！</p>
+</div>
+</div>
+<!-- 問題6 -->
+<div class="question-card">
+<h3 class="question-title">Q.06 「ボリンジャーバンド」の中心線は何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        移動平均線
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        最高値と最安値の中央値
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        25日間の始値の平均
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_5">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_5"><button class="answer-back hidden" id="backButton_5_5">問題に戻る</button>
+<h3 class="question-title">Q.06 「ボリンジャーバンド」の中心線は何？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        移動平均線
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        最高値と最安値の中央値
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        25日間の始値の平均
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ボリンジャーバンドの中心線は「移動平均線」なんだ！通常は20日間の単純移動平均線が使われることが多いよ。ボリンジャーバンドは、この移動平均線を中心に、上下に標準偏差（価格のバラつき）を一定倍した範囲を示すバンド（帯）で構成されているんだ。簡単に言うと、「通常の値動きの範囲」を視覚的に表したものだよ。株価が上のバンドに近づくと「買われ過ぎ」、下のバンドに近づくと「売られ過ぎ」と判断されることが多いんだ。また、バンドが狭まると（収縮すると）大きな値動きの前触れとされることもあるよ！相場の変動率や「異常な動き」を把握するのに役立つ指標だね！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「ボリンジャーバンドの構造と使い方」を示す図。中心線（移動平均線）と上下のバンドを図示し、株価がバンドの上限に接近したときの「買われ過ぎ」と下限に接近したときの「売られ過ぎ」の状態を視覚的に説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 200">
+<!-- 株価チャートの背景 -->
+<rect fill="#f9fafb" height="140" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="30"></rect>
+<!-- ボリンジャーバンド上限 -->
+<polyline fill="none" points="50,50 70,55 90,60 110,55 130,45 150,40 170,50 190,45 210,40 230,50 250,55 270,60 290,55 310,60 330,65 350,70" stroke="#ef4444" stroke-dasharray="5,3" stroke-width="2"></polyline>
+<!-- 中心線（移動平均線） -->
+<polyline fill="none" points="50,100 70,100 90,95 110,90 130,85 150,90 170,95 190,90 210,95 230,100 250,105 270,110 290,105 310,110 330,115 350,120" stroke="#3b82f6" stroke-width="2"></polyline>
+<!-- ボリンジャーバンド下限 -->
+<polyline fill="none" points="50,150 70,145 90,140 110,135 130,125 150,130 170,140 190,135 210,150 230,150 250,155 270,160 290,155 310,150 330,155 350,160" stroke="#ef4444" stroke-dasharray="5,3" stroke-width="2"></polyline>
+<!-- 株価チャート -->
+<polyline fill="none" points="50,120 70,115 90,100 110,85 130,70 150,60 170,70 190,65 210,85 230,110 250,125 270,140 290,130 310,135 330,140 350,130" stroke="#111827" stroke-width="2"></polyline>
+<!-- 売買ポイント例 -->
+<circle cx="150" cy="60" fill="#ef4444" r="5"></circle>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="150" y="45">上限に接近</text>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="150" y="55">(売りサイン)</text>
+<circle cx="270" cy="140" fill="#22c55e" r="5"></circle>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="270" y="170">下限に接近</text>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="270" y="180">(買いサイン)</text>
+<!-- 説明ラベル -->
+<text fill="#ef4444" font-size="10" x="90" y="25">上側バンド (+2σ)</text>
+<line stroke="#ef4444" stroke-dasharray="2,2" stroke-width="1" x1="80" x2="70" y1="25" y2="55"></line>
+<text fill="#3b82f6" font-size="10" x="250" y="25">中心線 (移動平均線)</text>
+<line stroke="#3b82f6" stroke-dasharray="2,2" stroke-width="1" x1="240" x2="230" y1="25" y2="100"></line>
+<text fill="#ef4444" font-size="10" x="90" y="195">下側バンド (-2σ)</text>
+<line stroke="#ef4444" stroke-dasharray="2,2" stroke-width="1" x1="80" x2="70" y1="195" y2="145"></line>
+<text fill="#111827" font-size="10" x="320" y="25">株価</text>
+<line stroke="#111827" stroke-dasharray="2,2" stroke-width="1" x1="310" x2="300" y1="25" y2="40"></line>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">ボリンジャーバンドは移動平均線を中心に、標準偏差で上下のバンドを設定します。株価がバンドに接近すると反転の可能性が高まります。</p>
+</div>
+</div>
+</div>
+<!-- 問題7 -->
+<div class="question-card">
+<h3 class="question-title">Q.07 「一目均衡表」の基本的な構成要素でないものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        転換線・基準線
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        先行スパン1・先行スパン2
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        RSIライン
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_6">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_6"><button class="answer-back hidden" id="backButton_5_6">問題に戻る</button>
+<h3 class="question-title">Q.07 「一目均衡表」の基本的な構成要素でないものは？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        転換線・基準線
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        先行スパン1・先行スパン2
+                    </div>
+<div class="option correct-answer">
+<span class="option-label correct-label">C</span>
+                        RSIライン
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>「一目均衡表」の基本的な構成要素に「RSIライン」はないよ！一目均衡表は、日本人の細田悟一氏が考案した独自のテクニカル分析手法で、「転換線」「基準線」「先行スパン1」「先行スパン2」「遅行スパン」の5つの線で構成されているんだ。特に「先行スパン1」と「先行スパン2」で形成される「雲」（くも）は、サポート・レジスタンスを表し、相場の方向性を判断する重要な要素とされているよ。「RSIライン」は一目均衡表ではなく、別のテクニカル指標である「RSI（相対力指数）」の線を指しているんだ。一目均衡表は複雑に見えるけど、多くの情報を一度に把握できる強力なツールとして、特に日本の投資家に人気のある分析手法だよ！</p>
+</div>
+</div>
+<!-- 問題8 -->
+<div class="question-card">
+<h3 class="question-title">Q.08 「ダイバージェンス（乖離）」とは何？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        株価とテクニカル指標の動きが逆になる現象
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価が急激に変動する現象
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線が交差する現象
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_7">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_7"><button class="answer-back hidden" id="backButton_5_7">問題に戻る</button>
+<h3 class="question-title">Q.08 「ダイバージェンス（乖離）」とは何？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        株価とテクニカル指標の動きが逆になる現象
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        株価が急激に変動する現象
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線が交差する現象
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>ダイバージェンス（乖離）とは、株価とテクニカル指標の動きが逆になる現象のことだよ！例えば、株価は新高値を更新しているのに、RSIやMACDなどの指標は前回の高値よりも低い値を示している場合、これを「ネガティブ・ダイバージェンス（陰離）」と呼び、相場の上昇力が弱まっている可能性を示すんだ。反対に、株価は新安値を更新しているのに、指標は前回の安値よりも高い値を示している場合、これを「ポジティブ・ダイバージェンス（陽離）」と呼び、相場の下落力が弱まっている可能性を示すよ。ダイバージェンスはトレンド転換のサインとして重要視されていて、特にRSIやMACDなどのオシレーター系指標でよく見られる現象なんだ！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「ダイバージェンスの種類と意味」を示す図。株価が上昇しているのにRSIが下降している「ネガティブダイバージェンス」と、株価が下落しているのにRSIが上昇している「ポジティブダイバージェンス」のパターンを対比して視覚的に説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 300">
+<!-- 上部：ネガティブダイバージェンス -->
+<rect fill="#f9fafb" height="100" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="30"></rect>
+<!-- 株価チャート（上昇中だが2つ目の高値が高い） -->
+<polyline fill="none" points="50,100 70,95 90,80 110,90 130,70 150,80 170,60 190,70 210,40 230,50 250,30" stroke="#111827" stroke-width="2"></polyline>
+<circle cx="130" cy="70" fill="#111827" r="4"></circle>
+<circle cx="210" cy="40" fill="#111827" r="4"></circle>
+<line stroke="#111827" stroke-dasharray="3,3" stroke-width="1" x1="130" x2="210" y1="70" y2="40"></line>
+<text fill="#111827" font-size="10" text-anchor="middle" x="170" y="60">株価：上昇</text>
+<!-- RSI指標（下降中） -->
+<rect fill="#fee2e2" height="60" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="140"></rect>
+<polyline fill="none" points="50,180 70,175 90,160 110,170 130,150 150,160 170,165 190,175 210,170 230,180 250,175" stroke="#ef4444" stroke-width="2"></polyline>
+<circle cx="130" cy="150" fill="#ef4444" r="4"></circle>
+<circle cx="210" cy="170" fill="#ef4444" r="4"></circle>
+<line stroke="#ef4444" stroke-dasharray="3,3" stroke-width="1" x1="130" x2="210" y1="150" y2="170"></line>
+<text fill="#ef4444" font-size="10" text-anchor="middle" x="170" y="160">RSI：下降</text>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="175" y="15">ネガティブダイバージェンス</text>
+<text font-size="10" text-anchor="middle" x="175" y="205">(上昇トレンドの終わりを示唆 → 売りシグナル)</text>
+<!-- 下部：ポジティブダイバージェンス -->
+<rect fill="#f9fafb" height="60" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="220"></rect>
+<!-- 株価チャート（下降中だが2つ目の安値が低い） -->
+<polyline fill="none" points="50,230 70,235 90,250 110,240 130,260 150,250 170,240 190,230 210,260 230,250 250,270" stroke="#111827" stroke-width="2"></polyline>
+<circle cx="130" cy="260" fill="#111827" r="4"></circle>
+<circle cx="210" cy="260" fill="#111827" r="4"></circle>
+<line stroke="#111827" stroke-dasharray="3,3" stroke-width="1" x1="130" x2="210" y1="260" y2="260"></line>
+<text fill="#111827" font-size="10" text-anchor="middle" x="170" y="240">株価：同じ</text>
+<text fill="#111827" font-size="10" text-anchor="middle" x="170" y="240">株価：下降</text>
+<!-- RSI指標（上昇中） -->
+<rect fill="#dcfce7" height="60" stroke="#e5e7eb" stroke-width="1" width="300" x="50" y="230"></rect>
+<polyline fill="none" points="50,270 70,265 90,260 110,265 130,270 150,265 170,255 190,250 210,245 230,240 250,235" stroke="#22c55e" stroke-width="2"></polyline>
+<circle cx="130" cy="270" fill="#22c55e" r="4"></circle>
+<circle cx="210" cy="245" fill="#22c55e" r="4"></circle>
+<line stroke="#22c55e" stroke-dasharray="3,3" stroke-width="1" x1="130" x2="210" y1="270" y2="245"></line>
+<text fill="#22c55e" font-size="10" text-anchor="middle" x="170" y="260">RSI：上昇</text>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="175" y="215">ポジティブダイバージェンス</text>
+<text font-size="10" text-anchor="middle" x="175" y="295">(下落トレンドの終わりを示唆 → 買いシグナル)</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">ダイバージェンスは株価とテクニカル指標の動きが逆になる現象です。相場のトレンド転換を予測する重要なサインとなります。</p>
+</div>
+</div>
+</div>
+<!-- 問題9 -->
+<div class="question-card">
+<h3 class="question-title">Q.09 「移動平均線の乖離率」の計算方法は？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        (株価 - 移動平均線) ÷ 移動平均線 × 100
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        (移動平均線 - 株価) ÷ 株価 × 100
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線 ÷ 株価 × 100
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_8">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_8"><button class="answer-back hidden" id="backButton_5_8">問題に戻る</button>
+<h3 class="question-title">Q.09 「移動平均線の乖離率」の計算方法は？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        (株価 - 移動平均線) ÷ 移動平均線 × 100
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        (移動平均線 - 株価) ÷ 株価 × 100
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        移動平均線 ÷ 株価 × 100
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>移動平均線の乖離率は「(株価 - 移動平均線) ÷ 移動平均線 × 100」で計算するよ！これは、株価が移動平均線からどれだけ離れているかを、パーセンテージで表したものなんだ。例えば、株価が1,200円で25日移動平均線が1,000円の場合、乖離率は「(1,200 - 1,000) ÷ 1,000 × 100 = 20%」となるよ。これは「株価が移動平均線より20%高い位置にある」ということを示しているんだ。一般的に、乖離率が大きくプラスの場合は「買われ過ぎ」、大きくマイナスの場合は「売られ過ぎ」と判断され、移動平均線に近づく（戻る）可能性が高まると考えられるよ。ただし、この「戻る力」は統計的な傾向に過ぎず、強いトレンド相場では乖離率が長期間大きな状態が続くこともあるから注意が必要だね！</p>
+</div>
+</div>
+<!-- 問題10 -->
+<div class="question-card">
+<h3 class="question-title">Q.10 「エリオット波動理論」で相場の基本サイクルは何波で構成される？</h3>
+<div class="options">
+<div class="option">
+<span class="option-label">A</span>
+                        3つの上昇波と2つの下降波（合計5波）
+                    </div>
+<div class="option">
+<span class="option-label">B</span>
+                        5つの上昇波と3つの下降波（合計8波）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        2つの上昇波と2つの下降波（合計4波）
+                    </div>
+</div>
+<button class="answer-toggle" id="toggleButton_5_9">解答を見る</button></div><div class="question-card hidden" id="answerCard_5_9"><button class="answer-back hidden" id="backButton_5_9">問題に戻る</button>
+<h3 class="question-title">Q.10 「エリオット波動理論」で相場の基本サイクルは何波で構成される？</h3>
+<div class="options">
+<div class="option correct-answer">
+<span class="option-label correct-label">A</span>
+                        3つの上昇波と2つの下降波（合計5波）
+                        <span class="ml-2" style="color: green; font-weight: bold;">← 正解!</span>
+</div>
+<div class="option">
+<span class="option-label">B</span>
+                        5つの上昇波と3つの下降波（合計8波）
+                    </div>
+<div class="option">
+<span class="option-label">C</span>
+                        2つの上昇波と2つの下降波（合計4波）
+                    </div>
+</div>
+<div class="explanation">
+<p style="font-weight: bold;">📝 解説:</p>
+<p>エリオット波動理論における相場の基本サイクルは、「3つの上昇波（第1波、第3波、第5波）と2つの下降波（第2波、第4波）の合計5波」で構成されるよ！この5波が「インパルス波」と呼ばれる上昇トレンドを形成し、その後に3つの「調整波（A波、B波、C波）」が続くと考えられているんだ。エリオット波動理論は、市場の動きが人間の心理によって繰り返しパターンを形成するという考え方に基づいていて、複雑なチャートを解釈するためのフレームワークを提供しているよ。難解な部分もあるテクニカル理論だけど、「相場は直線的ではなく波のように動く」「上昇トレンドでも調整（下落）が入る」という基本的な考え方は、他のチャート分析でも重要な視点だね！</p>
+</div>
+<div class="visual-tip">
+<h4 style="font-weight: bold; margin-bottom: 8px;">📊 図解ポイント:</h4>
+<p>「エリオット波動理論の基本サイクル」を示す図。1-5波のインパルス波（3つの上昇波と2つの下降波）と、A-C波の調整波を示したチャートを表示。波の特徴（第3波が最も長い、第4波は第1波の終点を下回らないなど）も説明。</p>
+<div class="visual-container">
+<div style="display: flex; justify-content: center;">
+<svg style="max-width: 400px; width: 100%;" viewbox="0 0 400 250">
+<!-- 背景のグリッド線 -->
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="50" y2="50"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="100" y2="100"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="150" y2="150"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="350" y1="200" y2="200"></line>
+<!-- エリオット波動 -->
+<!-- インパルス波（上昇トレンド） -->
+<polyline fill="none" points="50,200 90,150 110,180 170,80 190,120 250,50 290,100" stroke="#111827" stroke-width="2"></polyline>
+<!-- 調整波 -->
+<polyline fill="none" points="290,100 310,150 330,120 350,180" stroke="#111827" stroke-dasharray="4,2" stroke-width="2"></polyline>
+<!-- 波のラベル -->
+<circle cx="50" cy="200" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="50" y="190">0</text>
+<circle cx="90" cy="150" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="90" y="140">1</text>
+<circle cx="110" cy="180" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="110" y="170">2</text>
+<circle cx="170" cy="80" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="170" y="70">3</text>
+<circle cx="190" cy="120" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="190" y="110">4</text>
+<circle cx="250" cy="50" fill="#ef4444" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="250" y="40">5</text>
+<circle cx="290" cy="100" fill="#3b82f6" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="290" y="90">A</text>
+<circle cx="310" cy="150" fill="#3b82f6" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="310" y="140">B</text>
+<circle cx="350" cy="180" fill="#3b82f6" r="5"></circle>
+<text font-size="12" font-weight="bold" text-anchor="middle" x="350" y="170">C</text>
+<!-- 説明ラベル -->
+<rect fill="#fee2e2" height="20" rx="5" width="160" x="70" y="220"></rect>
+<text fill="#ef4444" font-size="12" font-weight="bold" text-anchor="middle" x="150" y="235">インパルス波（5波）</text>
+<rect fill="#dbeafe" height="20" rx="5" width="100" x="250" y="220"></rect>
+<text fill="#3b82f6" font-size="12" font-weight="bold" text-anchor="middle" x="300" y="235">調整波（3波）</text>
+<!-- 波の特性説明 -->
+<text font-size="10" x="120" y="25">上昇波（1,3,5）</text>
+<text font-size="10" x="280" y="25">下降波（2,4）</text>
+<line stroke="#333" stroke-dasharray="2,2" stroke-width="1" x1="170" x2="180" y1="60" y2="25"></line>
+<text font-size="10" font-weight="bold" x="250" y="15">第3波が最も長いことが多い</text>
+</svg>
+</div>
+<p class="center-text" style="margin-top: 8px; font-size: 0.875rem;">エリオット波動理論では、上昇トレンドは5つの波（3つの上昇波と2つの下降波）で構成され、その後に3つの調整波が続くとされています。</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 解答セクション -->
+<button class="header-answer-toggle">解答一覧を表示</button><div class="hidden" id="answersSection" style="display:none;">
+<div class="question-card">
+<h3 class="question-title">解答一覧</h3>
+<div class="answers-grid">
+<div class="answer-cell">
+<span class="font-semibold">Q.01:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.02:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.03:</span> B
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.04:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.05:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.06:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.07:</span> C
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.08:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.09:</span> A
+                    </div>
+<div class="answer-cell">
+<span class="font-semibold">Q.10:</span> A
+                    </div>
+</div>
+</div>
+<!-- 解答1 -->
+<!-- 解答2 -->
+<!-- 解答3 -->
+<div class="footer">
+<button class="toggle-button" id="toggleAnswersButton">問題に戻る</button>
+</div>
+</div>
+<script>
+        // トグルボタンの機能を実装
+        const toggleButton = document.getElementById('toggleButton');
+        const toggleAnswersButton = document.getElementById('toggleAnswersButton');
+        const questionsSection = document.getElementById('questionsSection');
+        const answersSection = document.getElementById('answersSection');
+        
+        toggleButton.addEventListener('click', function() {
+            questionsSection.classList.add('hidden');
+            answersSection.classList.remove('hidden');
+            toggleButton.textContent = '問題に戻る';
+        });
+        
+        toggleAnswersButton.addEventListener('click', function() {
+            answersSection.classList.add('hidden');
+            questionsSection.classList.remove('hidden');
+            toggleButton.textContent = '解答を見る';
+        });
+    </script>
+</div>
+</div>
+
+  
+
+<script>
+document.querySelectorAll('.answer-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.closest('.question-card').nextElementSibling;
+        if (answer && answer.classList.contains('question-card')) {
+            answer.classList.remove('hidden');
+            button.classList.add('hidden');
+            const back = answer.querySelector('.answer-back');
+            if (back) back.classList.remove('hidden');
+        }
+    });
+});
+document.querySelectorAll('.answer-back').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.closest('.question-card');
+        answer.classList.add('hidden');
+        const prev = answer.previousElementSibling;
+        const toggleBtn = prev.querySelector('.answer-toggle');
+        if (toggleBtn) toggleBtn.classList.remove('hidden');
+        button.classList.add('hidden');
+    });
+});
+</script>
+
+<script>
+document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', () => {
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.style.display = 'none';
+        });
+        const target = document.getElementById(button.getAttribute('data-target'));
+        if (target) target.style.display = 'block';
+    });
+});
+// ヘッダー用「解答を見る」ボタン → 全answersSection表示切替
+document.querySelectorAll('.header-answer-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+        const section = button.closest('.tab-content');
+        if (!section) return;
+        const target = section.querySelector('#answersSection');
+        if (target) {
+            target.style.display = target.style.display === 'none' ? 'block' : 'none';
+        }
+    });
+});
+</script>
+
+</body>
+</html>
